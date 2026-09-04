@@ -1,0 +1,7 @@
+# Estado de ciclo (vive en los proyectos, no en este repo)
+.crew/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini

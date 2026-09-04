@@ -1,0 +1,13 @@
+{
+  "name": "business-crew",
+  "version": "2.0.0",
+  "description": "Un equipo entero para cuando programas solo. 18 agentes con persona real (Scrum Master, CEO, producto, UX, UI, direccion de arte, datos, dev, QA, DevOps, seguridad, marketing, ventas, mercado, finanzas, legal) mas un ciclo de trabajo real basado en Shape Up: appetite en vez de estimacion, hill chart para detectar atascos y circuit breaker contra el pulido infinito. Avisa solo al abrir el proyecto. Agnostico de producto: SaaS, ecommerce, landing, marketplace o herramienta interna.",
+  "author": {
+    "name": "Fernando del Rio",
+    "url": "https://github.com/fernando-delrio"
+  },
+  "homepage": "https://github.com/fernando-delrio/business-crew",
+  "repository": "https://github.com/fernando-delrio/business-crew",
+  "license": "MIT",
+  "keywords": ["agents", "shape-up", "product", "ux", "ui", "design", "strategy", "solo-founder", "vibe-coding"]
+}

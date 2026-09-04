@@ -1,0 +1,29 @@
+{
+  "description": "Business Crew: al abrir sesion recuerda el ciclo activo y avisa si el punto de la colina lleva dias sin moverse. Al cerrar, verifica que el incremento queda coherente.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/cargar-ciclo.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/recordar-cierre.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

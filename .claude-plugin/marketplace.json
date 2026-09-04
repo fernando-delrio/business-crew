@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "business-crew",
+  "description": "Marketplace de Business Crew: un equipo de startup completo para quien programa solo.",
+  "owner": {
+    "name": "Fernando del Rio",
+    "url": "https://github.com/fernando-delrio"
+  },
+  "plugins": [
+    {
+      "name": "business-crew",
+      "description": "18 agentes con persona real mas un ciclo de trabajo Shape Up para quien programa solo. Agnostico de producto.",
+      "author": { "name": "Fernando del Rio" },
+      "category": "productivity",
+      "source": "./"
+    }
+  ]
+}
