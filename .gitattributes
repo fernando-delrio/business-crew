@@ -1,0 +1,32 @@
+# Normalizacion de finales de linea.
+# Sin esto, en Windows con core.autocrlf=true los .sh se convierten a CRLF
+# al clonar y bash falla con: $'\r': command not found
+
+* text=auto eol=lf
+
+# Los scripts que ejecutan los hooks NUNCA pueden llevar CRLF
+*.sh   text eol=lf
+*.bash text eol=lf
+
+# Markdown, JSON y config: LF tambien, para diffs limpios entre sistemas
+*.md   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# Binarios: que Git no los toque
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.svg  text eol=lf
+*.webm binary
+*.pdf  binary
+*.woff binary
+*.woff2 binary
+
+# Estadisticas de lenguaje en GitHub: los .md de agentes y skills son
+# el producto, no documentacion accesoria
+agents/*.md   linguist-detectable
+skills/**/*.md linguist-detectable

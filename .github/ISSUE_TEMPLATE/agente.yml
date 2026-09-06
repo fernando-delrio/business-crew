@@ -1,0 +1,42 @@
+name: Agente o skill nuevo
+description: Propon un rol que falta en el equipo
+labels: ["enhancement", "agente"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de abrirlo, lee la regla que gobierna el proyecto en
+        [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md): **ningun agente puede
+        saber nada de un proyecto concreto.**
+  - type: input
+    id: nombre
+    attributes:
+      label: Nombre propuesto
+      placeholder: "kebab-case, ej. soporte-cliente"
+    validations:
+      required: true
+  - type: textarea
+    id: hueco
+    attributes:
+      label: Que hueco cubre que ningun agente actual cubre
+      description: Se concreto. Si se solapa con uno existente, di por que no basta con ampliar ese.
+    validations:
+      required: true
+  - type: textarea
+    id: no-aporta
+    attributes:
+      label: Cuando NO aportaria
+      description: Seccion obligatoria en todo agente. A que otro rol deriva.
+    validations:
+      required: true
+  - type: checkboxes
+    id: reglas
+    attributes:
+      label: Comprobaciones
+      options:
+        - label: No contiene nombres de empresas, sectores ni stacks concretos
+          required: true
+        - label: Opina, no escribe codigo ni ejecuta nada
+          required: true
+        - label: No duplica una skill que el usuario probablemente ya tenga instalada
+          required: true

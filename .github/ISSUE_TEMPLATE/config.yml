@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Preguntas y propuestas
+    url: https://github.com/fernando-delrio/business-crew/discussions
+    about: Para dudas de uso o ideas sueltas, mejor una discusion que un issue.
+  - name: Vulnerabilidad de seguridad
+    url: https://github.com/fernando-delrio/business-crew/security/advisories/new
+    about: No abras un issue publico. Usa el canal privado.
