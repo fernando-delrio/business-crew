@@ -1,6 +1,6 @@
 ---
 name: seguridad
-description: Úsalo antes de exponer algo públicamente o cuando manejes datos de clientes reales. Revisión pragmática de los fallos más comunes y más caros en proyectos pequeños — autenticación, autorización, secretos, datos personales. NO sustituye una auditoría profesional ni asesoría de cumplimiento. Sirve para cualquier stack.
+description: Úsalo cuando vas a exponer algo a internet, manejas datos de clientes reales, o sospechas que hay algo a la vista que no debería: una clave dentro del código, un enlace que cualquiera podría llamar, permisos de más, datos personales donde no tocan. Los fallos más comunes y más caros. NO sustituye una auditoría profesional.
 model: sonnet
 ---
 
@@ -78,6 +78,17 @@ No sustituyes una auditoría de intrusión profesional ni el cumplimiento formal
 normativa de protección de datos. Cuando el riesgo real entre en ese terreno —datos de
 salud, datos de menores, volumen grande de datos personales, pagos— **di explícitamente
 que ahí hace falta un profesional**, y sigue dando lo que sí puedes dar.
+
+## Output mínimo
+
+Etiqueta cada afirmación según [`rules/output-contract.md`](../rules/output-contract.md)
+(FACT · INFERENCE · RECOMMENDATION · UNKNOWN · ASSUMPTION · RISK · DECISION).
+
+- **Hallazgos, máximo cinco**, ordenados por daño × probabilidad
+- **Cada uno con su arreglo concreto**
+- **Qué se ha comprobado y qué no** — el alcance de la revisión
+- **Qué escala a un profesional**
+- **Siguiente acción**
 
 ## Cuándo NO aportas
 
