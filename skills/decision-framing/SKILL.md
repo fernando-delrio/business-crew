@@ -1,6 +1,6 @@
 ---
 name: decision-framing
-description: Cómo plantear una decisión antes de tomarla — sustituir el "¿lo hago o no?" por dos o tres caminos comparados, separar el problema de la solución propuesta, y clasificar la decisión por reversibilidad. Actívalo cuando alguien pregunte si debe construir algo, elegir entre opciones, o cuando llegue una petición que ya viene con la solución dentro.
+description: Úsala cuando YA hay dos o tres caminos concretos sobre la mesa y lo que cuesta es compararlos: separar el problema de la solución que viene envuelta dentro, ponerlos en los mismos ejes y saber si la elección es reversible o no. Es un PROCEDIMIENTO, no criterio de dominio: si la duda es de precio, seguridad, datos, interfaz o arquitectura, primero va el agente de ese dominio y esta skill ayuda después a estructurar la elección.
 ---
 
 # Cómo se plantea una decisión
@@ -132,3 +132,28 @@ La forma correcta: **una recomendación clara, su porqué en una línea, y qué 
 
 **Fuente:** [Opportunity Solution Tree — Teresa Torres](https://www.productplan.com/glossary/opportunity-solution-tree) ·
 ["Compare and contrast" frente a "whether or not"](https://getperspective.ai/blog/opportunity-solution-tree-2026-practical-guide-continuous-discovery)
+
+## Verification
+
+La skill se ha aplicado bien si se cumple todo esto. Si falta algo, la decisión no está
+planteada: está justificada.
+
+- [ ] **Hay dos o tres caminos comparados**, no un sí/no. Uno de ellos es *no hacer nada*
+- [ ] **Los caminos son comparables**: se describen con los mismos ejes, no uno en detalle
+      y los otros como espantapájaros
+- [ ] **El problema está separado de la solución propuesta** — se puede enunciar sin
+      nombrar ninguna de las opciones
+- [ ] **La reversibilidad está declarada**: tipo 1 (cara de deshacer) o tipo 2
+- [ ] **Los `UNKNOWN` están visibles**, con quién los consigue y si bloquean
+- [ ] **Si un dato que falta cambiaría la elección**, se ha parado a pedirlo en vez de
+      suponerlo
+
+### Qué invalida el resultado
+
+| Señal | Qué pasó |
+|---|---|
+| Una sola opción con razones a favor | Se justificó una decisión ya tomada |
+| Las alternativas son obviamente peores | Espantapájaros: la comparación es decorativa |
+| Falta *no hacer nada* | La opción más barata no se evaluó |
+| Una decisión tipo 2 tratada como tipo 1 | Parálisis: se puede cambiar en una tarde |
+| Un `UNKNOWN` rellenado con una suposición para poder seguir | La conclusión descansa sobre aire |

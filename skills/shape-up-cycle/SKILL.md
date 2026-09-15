@@ -1,6 +1,6 @@
 ---
 name: shape-up-cycle
-description: Ciclo de trabajo real para quien programa solo o en equipo muy pequeño, basado en Shape Up (Basecamp) en lugar de Scrum. Úsalo para abrir una apuesta (alcance ↔ appetite), saber si estás cuesta arriba o cuesta abajo, detectar atascos, y cerrar un ciclo. Actívalo cuando alguien pregunte por dónde seguir, cuánto va a tardar algo, si sigue puliendo o lanza, o cuando lleve días sin avanzar visiblemente.
+description: El ciclo de trabajo de Shape Up (Basecamp) para quien programa solo: appetite en vez de estimación, hill chart para ver si estás cuesta arriba o cuesta abajo, circuit breaker y cero backlog. Úsala SOLO cuando ya se trabaja con este ciclo: al dar forma a una apuesta, al situarte en la colina o al cerrarla. NO es para saber por dónde seguir en general (eso es scrum-master), NO decide qué construir (pm-producto), y NO aplica fuera de un ciclo abierto.
 ---
 
 # El ciclo — Shape Up, no Scrum
@@ -214,3 +214,39 @@ estimando en puntos o manteniendo un backlog priorizado, has vuelto a Scrum sin 
 **Fuente:** [Shape Up, Ryan Singer (Basecamp)](https://basecamp.com/shapeup) — lectura
 gratuita. Los capítulos que más rinden trabajando solo son el 13 (hill charts) y el 8
 (betting table).
+
+## Verification
+
+### Al abrir una apuesta (`/bet`)
+
+- [ ] **El appetite está fijado** en tiempo, no en alcance: "dos semanas", no "lo que haga falta"
+- [ ] **El no-go está escrito** — qué NO entra, explícito
+- [ ] **Los rabbit holes están identificados**, cada uno con cómo se evita
+- [ ] **El éxito es observable**: una frase que se puede comprobar, no "que quede bien"
+- [ ] **Un resultado negativo también cuenta como resultado**, y está dicho
+
+### Durante (`/hill`)
+
+- [ ] **La posición está declarada**: cuesta arriba (descubriendo) o cuesta abajo (ejecutando)
+- [ ] **El movimiento tiene fecha.** Un punto quieto dos días es una mano levantada
+- [ ] **Si no se mueve, se recorta el alcance** — no se amplía el appetite
+
+### Al cerrar (`/ship`)
+
+- [ ] **Se salió por una de las tres puertas del circuit breaker**: recortar y enviar,
+      cancelar, o volver a apostar a conciencia. **"Un poco más" no es una salida**
+- [ ] **Hay evidencia de lo enviado**, no una declaración de que está terminado
+- [ ] **Hay retro escrita**, aunque el ciclo fracasara — sobre todo si fracasó
+- [ ] **El cool-down arranca**: no se encadena la siguiente apuesta por inercia
+- [ ] **Lo que no entró se anotó** para el cool-down, y no se coló a mitad
+
+### Qué invalida el resultado
+
+| Señal | Qué pasó |
+|---|---|
+| El appetite creció durante el ciclo | Ya no es una apuesta: es un proyecto abierto |
+| Se salió con "un poco más" | El circuit breaker no se aplicó |
+| El hill chart no se actualizó | No se puede detectar un atasco que nadie mira |
+| Aparece un backlog | Shape Up no tiene backlog: se decide de cero cada ciclo |
+| Se cerró sin retro | El ciclo no dejó aprendizaje |
+| Entró trabajo que estaba en el no-go | El no-go era decorativo |

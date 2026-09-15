@@ -1,6 +1,6 @@
 ---
 name: design-direction
-description: Dirección de arte antes de escribir una línea de interfaz. Fija el brief visual, evita la huella reconocible del diseño generado por IA, puntúa contra la rúbrica real de Awwwards (Diseño 40 / Usabilidad 30 / Creatividad 20 / Contenido 10), y enruta a las skills de diseño y animación ya instaladas. Úsalo antes de construir cualquier interfaz, al rediseñar, o cuando algo "se ve genérico" y no se sabe por qué.
+description: El procedimiento de dirección visual: las cinco decisiones del brief, el control anti-slop y la rúbrica con la que se puntúa una interfaz. Úsala cuando toque ESTRUCTURAR o VALIDAR una dirección visual que ya está planteada. Si lo que hay es una insatisfacción vaga —«se ve soso», «le falta algo»— el primario es director-arte, que aporta el criterio y luego aplica esta skill.
 ---
 
 # Dirección de arte
@@ -202,3 +202,31 @@ cansino a la tercera sesión.
 **Fuentes:** [Sistema de evaluación de Awwwards](https://www.awwwards.com/about-evaluation/) ·
 [Why AI Design Looks Generic](https://superdesign.dev/blog/why-ai-design-looks-generic) ·
 [AI Slop Design Tells](https://www.925studios.co/blog/ai-slop-design-tells)
+
+## Verification
+
+El brief está listo cuando se cumple todo esto. Antes, no se construye.
+
+- [ ] **Las cinco decisiones del brief están tomadas** (§2), ninguna como "lo que veas
+      mejor"
+- [ ] **Hay dos o tres referencias concretas con URL.** Si son adjetivos —"moderno",
+      "limpio", "profesional"— **no hay brief**
+- [ ] **La tipografía está elegida**, con un motivo que no sea "es la que había"
+- [ ] **El color tiene origen**, no es un tono agradable al azar
+- [ ] **Hay un gesto memorable, y solo uno**
+- [ ] **Está escrito qué se niega a hacer** esta interfaz
+- [ ] **Pasa el control anti-slop** (§1): sin degradado índigo-morado por defecto, sin la
+      tipografía que viene de fábrica, sin tres tarjetas redondeadas como única idea
+- [ ] **Puntuado con la rúbrica** (§3), y dicho **cuál sube más la nota por unidad de
+      esfuerzo**
+- [ ] **La ejecución está derivada** a la skill concreta (§4), sin improvisar su contenido
+
+### Qué invalida el resultado
+
+| Señal | Qué pasó |
+|---|---|
+| Referencias en forma de adjetivo | No hay restricción: saldrá la mediana estadística |
+| Dos o más gestos memorables | Compiten y no se recuerda ninguno |
+| Nota alta en estética y baja en contenido | Se puntuó lo que se pule, no lo que pesa (Diseño 40 / **Usabilidad 30** / Creatividad 20 / **Contenido 10**) |
+| El brief se escribió después de maquetar | Es una justificación, no un brief |
+| El flujo confunde y se maquilló | Un sistema visual precioso sobre un flujo roto sigue siendo un flujo roto → `ux-norman` |
