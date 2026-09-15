@@ -87,13 +87,16 @@ capturas: la fuente primaria.
 python -c "import json;[json.load(open(f,encoding='utf-8')) for f in ['.claude-plugin/plugin.json','.claude-plugin/marketplace.json','hooks/hooks.json']]"
 
 # Los scripts no tienen errores de sintaxis
-bash -n scripts/cargar-ciclo.sh && bash -n scripts/recordar-cierre.sh
+for s in scripts/*.sh; do bash -n "$s" || echo "SINTAXIS: $s"; done
 
 # Ningún .sh con CRLF (romperia los hooks fuera de Windows)
 file scripts/*.sh | grep CRLF && echo "ARREGLALO" || echo "OK"
 
-# Cero hardcodeo de proyectos
-grep -rniE "weldix|kinovia|mi-empresa" agents/ skills/ commands/ && echo "RESIDUOS" || echo "OK"
+# Frontera ESTRUCTURAL (importes, telefonos, correos). La capa NOMINAL
+# -nombres, lugares, competidores, rutas privadas- solo se evalua si existe
+# .crew/frontera-denylist.txt, que vive fuera de git. Sin ella el script
+# informa NOMINAL NOT_EVALUATED: no es un aprobado de la frontera entera.
+bash scripts/check-boundary.sh
 ```
 
 ## Commits
