@@ -1,5 +1,5 @@
 ---
-description: Cierra el ciclo. Verifica que está de verdad terminado, hace la retro, archiva la apuesta y arranca el cool-down.
+description: Cierra el ciclo de Shape Up activo: verifica que está de verdad terminado, hace la retro, archiva la apuesta y arranca el cool-down. Solo para CERRAR un ciclo — no publica nada a producción.
 argument-hint: [vacío]
 ---
 

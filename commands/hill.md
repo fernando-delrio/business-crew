@@ -1,5 +1,5 @@
 ---
-description: ¿Cuesta arriba o cuesta abajo? Actualiza tu posición en la colina y detecta si llevas días atascado sin darte cuenta.
+description: Actualiza tu posición en el hill chart del ciclo de Shape Up que ya está abierto: cuesta arriba si sigues descubriendo, cuesta abajo si ya ejecutas, y avisa si el punto lleva días sin moverse. Solo DURANTE un ciclo abierto.
 argument-hint: [qué has avanzado, o vacío para que te pregunte]
 ---
 

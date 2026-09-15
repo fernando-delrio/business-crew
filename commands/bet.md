@@ -1,5 +1,5 @@
 ---
-description: Abre un ciclo de trabajo. Da forma a la apuesta, fija el appetite y escribe el no-go antes de tocar código.
+description: Abre un ciclo de trabajo de Shape Up: da forma a la apuesta, fija el appetite y escribe el no-go antes de tocar nada. Solo para EMPEZAR un ciclo nuevo — no decide precios, arquitectura ni diseño.
 argument-hint: [qué quieres construir, o vacío para decidirlo entre las opciones]
 ---
 

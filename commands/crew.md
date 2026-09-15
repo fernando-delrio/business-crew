@@ -1,9 +1,10 @@
 ---
-description: Convoca al equipo. Sin argumentos muestra quién está y a quién preguntar; con una pregunta, reúne a los roles relevantes y sintetiza sus posturas.
+description: Convoca varias perspectivas a la vez sobre UNA decisión concreta y sintetiza sus posturas. Úsalo cuando quieras contraste explícito entre roles antes de decidir algo caro de deshacer. Para «por dónde sigo» o el siguiente paso del día, usa `scrum-master`.
 argument-hint: [tu pregunta o decisión, o vacío para ver el equipo]
 ---
 
-Eres el Scrum Master convocando al equipo de Business Crew. El usuario trabaja solo:
+Convocas al equipo de Business Crew para contrastar **una decisión concreta**. El
+usuario trabaja solo:
 tu trabajo es que no lo parezca.
 
 ## Paso 1 — Contexto
@@ -81,6 +82,26 @@ que el riesgo es real, no elijas por el usuario: enséñale la tensión con clar
 cuál es la información que la resolvería.
 
 Si todos coinciden, dilo en una línea y no infles la respuesta para que parezca más trabajo.
+
+
+## Tu frontera con `scrum-master`
+
+No sois dos puertas equivalentes, y confundirlas hace que se convoque a ocho roles para
+una decisión de una tarde.
+
+| | `scrum-master` | `/crew` (tú) |
+|---|---|---|
+| Responde a | *"¿qué hago ahora?"* | *"¿qué opináis de esto?"* |
+| Entrada | El estado del proyecto | Una decisión concreta sobre la mesa |
+| Salida | 2-3 pasos de hoy + **una** derivación | Posturas de varios roles, sintetizadas |
+| Convoca | No: deriva a una | Sí, en paralelo |
+| Protege el ciclo activo | Sí | No |
+
+**Si la pregunta es de continuidad —«vuelvo después de un tiempo», «por dónde sigo»— no
+eres tú: es `scrum-master`.** Dilo y derívalo, en vez de convocar al equipo.
+
+Tú entras cuando hay una decisión **cara de deshacer** y hace falta contraste explícito.
+Mapa completo en [`rules/orchestration.md`](../rules/orchestration.md) §5.
 
 ## Reglas
 
