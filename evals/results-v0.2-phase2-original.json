@@ -1,0 +1,297 @@
+{
+  "fixture": "routing-cases.json",
+  "casos": [
+    {
+      "id": "C01",
+      "query": "tengo la web publicada y no tengo ni idea de si entra alguien ni de si sirve para algo",
+      "expected": "analista-datos",
+      "top3": [
+        "analista-datos",
+        "devops-hightower",
+        "/ship"
+      ],
+      "scores": [
+        0.324,
+        0.084,
+        0.076
+      ],
+      "expected_score": 0.3241,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [
+        "devops-hightower"
+      ],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.2398
+    },
+    {
+      "id": "C02",
+      "query": "el enlace que dispara el formulario está a la vista en el código que descarga el navegador y cualquiera podría llamarlo",
+      "expected": "seguridad",
+      "top3": [
+        "seguridad",
+        "legal-basico",
+        "dev-dhh"
+      ],
+      "scores": [
+        0.386,
+        0.146,
+        0.104
+      ],
+      "expected_score": 0.3859,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.2394
+    },
+    {
+      "id": "C03",
+      "query": "no sé cuánto pedir por esto ni si me va a salir a cuenta",
+      "expected": "cfo-precios",
+      "top3": [
+        "cfo-precios",
+        "munger-critico"
+      ],
+      "scores": [
+        0.233,
+        0.178
+      ],
+      "expected_score": 0.2328,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.0544
+    },
+    {
+      "id": "C04",
+      "query": "se me ha ocurrido añadir una cosa nueva pero nadie me la ha pedido todavía",
+      "expected": "pm-producto",
+      "top3": [
+        "pm-producto",
+        "dev-dhh",
+        "qa-bach"
+      ],
+      "scores": [
+        0.458,
+        0.13,
+        0.096
+      ],
+      "expected_score": 0.4584,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.3279
+    },
+    {
+      "id": "C05",
+      "query": "quiero montar el flujo que avisa solo al cliente y reintenta si falla el envío",
+      "expected": "coo-graham",
+      "top3": [
+        "ventas-ross",
+        "director-arte",
+        "ux-norman"
+      ],
+      "scores": [
+        0.153,
+        0.141,
+        0.131
+      ],
+      "expected_score": 0.0665,
+      "expected_reachable": true,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [
+        "ventas-ross"
+      ],
+      "forbidden_above_primary": [
+        "ventas-ross"
+      ],
+      "ambiguous": true,
+      "margin": 0.0116
+    },
+    {
+      "id": "C06",
+      "query": "voy a guardar datos de varios clientes en la misma base y no quiero que se vean entre ellos",
+      "expected": "dev-dhh",
+      "top3": [
+        "legal-basico",
+        "seguridad",
+        "ventas-ross"
+      ],
+      "scores": [
+        0.249,
+        0.244,
+        0.212
+      ],
+      "expected_score": 0.0,
+      "expected_reachable": false,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": true,
+      "margin": 0.0051
+    },
+    {
+      "id": "C07",
+      "query": "la pantalla funciona pero la gente no entiende qué tiene que hacer y se atasca",
+      "expected": "ux-norman",
+      "top3": [
+        "ux-norman",
+        "analista-datos",
+        "ui-duarte"
+      ],
+      "scores": [
+        0.408,
+        0.225,
+        0.127
+      ],
+      "expected_score": 0.4076,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.1824
+    },
+    {
+      "id": "C08",
+      "query": "los tests pasan y compila, ¿lo puedo publicar ya?",
+      "expected": "qa-bach",
+      "top3": [
+        "qa-bach",
+        "devops-hightower",
+        "/ship"
+      ],
+      "scores": [
+        0.446,
+        0.09,
+        0.081
+      ],
+      "expected_score": 0.4462,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.3566
+    },
+    {
+      "id": "C09",
+      "query": "quiero saber quién más hace esto en mi zona y si hay hueco de verdad",
+      "expected": "analista-thompson",
+      "top3": [
+        "analista-thompson",
+        "munger-critico",
+        "qa-bach"
+      ],
+      "scores": [
+        0.392,
+        0.125,
+        0.098
+      ],
+      "expected_score": 0.3918,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [
+        "qa-bach"
+      ],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.2667
+    },
+    {
+      "id": "C10",
+      "query": "me piden mensajería, reservas y que además atienda llamadas, todo a la vez",
+      "expected": "pm-producto",
+      "top3": [
+        "pm-producto",
+        "seguridad"
+      ],
+      "scores": [
+        0.153,
+        0.143
+      ],
+      "expected_score": 0.1526,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": true,
+      "margin": 0.0091
+    },
+    {
+      "id": "C11",
+      "query": "he vuelto después de dos semanas y no sé por dónde retomar esto",
+      "expected": "scrum-master",
+      "top3": [
+        "scrum-master",
+        "ventas-ross",
+        "decision-framing"
+      ],
+      "scores": [
+        0.24,
+        0.095,
+        0.079
+      ],
+      "expected_score": 0.2401,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.1449
+    },
+    {
+      "id": "C12",
+      "query": "lo he montado y se ve soso, parece igual que cualquier otra web y no sé qué le falta",
+      "expected": "director-arte",
+      "top3": [
+        "director-arte",
+        "cmo-godin",
+        "design-direction"
+      ],
+      "scores": [
+        0.463,
+        0.13,
+        0.118
+      ],
+      "expected_score": 0.4625,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [
+        "cmo-godin"
+      ],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.3325
+    }
+  ],
+  "metricas": {
+    "TOP-1": 83.33333333333333,
+    "TOP-3": 83.33333333333333,
+    "UNNECESSARY": 33.333333333333336,
+    "MISSING": 16.666666666666668,
+    "AMBIGUOUS": 25.0,
+    "UNREACHABLE": 8.333333333333334,
+    "FORBIDDEN-ABOVE-PRIMARY": 8.333333333333334,
+    "NO-ROUTE": 0.0
+  }
+}

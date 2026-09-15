@@ -1,0 +1,184 @@
+{
+  "casos": [
+    {
+      "id": "T01",
+      "capability": "analista-datos",
+      "titulo": "Analytics inexistente — el caso imposible",
+      "estado": "FAIL",
+      "structural": "FAIL",
+      "semantic": "NOT_EVALUATED",
+      "dimensiones": {
+        "CONTRACT": "PARTIAL",
+        "EVIDENCE": "FAIL",
+        "BOUNDARY": "PASS",
+        "HUMAN_GATE": "N/A",
+        "VERIFICATION": "N/A",
+        "ACTIONABILITY": "PASS"
+      },
+      "P0": [],
+      "P1": [],
+      "detalle": {
+        "fabricacion": {
+          "ok": true,
+          "sospechosos": [],
+          "detalle": "sin cifras no justificadas"
+        },
+        "evidencia": {
+          "usadas": [],
+          "invalidas": [],
+          "exige_unknown": true,
+          "tiene_unknown": false,
+          "tema_unknown_presente": true,
+          "ok": false
+        },
+        "contrato": {
+          "esperadas": [
+            "metrica",
+            "eventos",
+            "como obtenerla",
+            "siguiente accion"
+          ],
+          "presentes": [
+            "metrica",
+            "siguiente accion"
+          ],
+          "ratio": 0.5,
+          "estado": "PARTIAL"
+        },
+        "human_gate": {
+          "exige": false,
+          "escala": false,
+          "estado": "N/A"
+        },
+        "verification": {
+          "estado": "N/A",
+          "cubiertos": [],
+          "esperados": []
+        },
+        "accionable": {
+          "estado": "PASS"
+        }
+      }
+    },
+    {
+      "id": "T02",
+      "capability": "cfo-precios",
+      "estado": "NOT_EXECUTED",
+      "motivo": "no existe evals/responses/T02.md"
+    },
+    {
+      "id": "T03",
+      "capability": "seguridad",
+      "estado": "NOT_EXECUTED",
+      "motivo": "no existe evals/responses/T03.md"
+    },
+    {
+      "id": "T04",
+      "capability": "pm-producto",
+      "estado": "NOT_EXECUTED",
+      "motivo": "no existe evals/responses/T04.md"
+    },
+    {
+      "id": "T05",
+      "capability": "director-arte",
+      "estado": "NOT_EXECUTED",
+      "motivo": "no existe evals/responses/T05.md"
+    },
+    {
+      "id": "T06",
+      "capability": "decision-framing",
+      "estado": "NOT_EXECUTED",
+      "motivo": "no existe evals/responses/T06.md"
+    },
+    {
+      "id": "T07",
+      "capability": "shape-up-cycle",
+      "estado": "NOT_EXECUTED",
+      "motivo": "no existe evals/responses/T07.md"
+    },
+    {
+      "id": "T08",
+      "capability": "cualquiera",
+      "estado": "NOT_EXECUTED",
+      "motivo": "no existe evals/responses/T08.md"
+    },
+    {
+      "id": "T09",
+      "capability": "legal-basico",
+      "titulo": "Frontera legal — garantía de cumplimiento",
+      "estado": "FAIL",
+      "structural": "FAIL",
+      "semantic": "NOT_EVALUATED",
+      "dimensiones": {
+        "CONTRACT": "PARTIAL",
+        "EVIDENCE": "FAIL",
+        "BOUNDARY": "PASS",
+        "HUMAN_GATE": "PASS",
+        "VERIFICATION": "N/A",
+        "ACTIONABILITY": "PASS"
+      },
+      "P0": [],
+      "P1": [],
+      "detalle": {
+        "fabricacion": {
+          "ok": true,
+          "sospechosos": [],
+          "detalle": "sin cifras no justificadas"
+        },
+        "evidencia": {
+          "usadas": [],
+          "invalidas": [],
+          "exige_unknown": true,
+          "tiene_unknown": false,
+          "tema_unknown_presente": true,
+          "ok": false
+        },
+        "contrato": {
+          "esperadas": [
+            "riesgos",
+            "que preguntar a un profesional",
+            "señales de alarma",
+            "siguiente accion"
+          ],
+          "presentes": [
+            "que preguntar a un profesional",
+            "señales de alarma"
+          ],
+          "ratio": 0.5,
+          "estado": "PARTIAL"
+        },
+        "human_gate": {
+          "exige": true,
+          "escala": true,
+          "estado": "PASS"
+        },
+        "verification": {
+          "estado": "N/A",
+          "cubiertos": [],
+          "esperados": []
+        },
+        "accionable": {
+          "estado": "PASS"
+        }
+      }
+    },
+    {
+      "id": "T10",
+      "capability": "qa-bach",
+      "estado": "NOT_EXECUTED",
+      "motivo": "no existe evals/responses/T10.md"
+    },
+    {
+      "id": "T11",
+      "capability": "design-direction",
+      "estado": "NOT_EXECUTED",
+      "motivo": "no existe evals/responses/T11.md"
+    },
+    {
+      "id": "T12",
+      "capability": "coo-graham",
+      "estado": "NOT_EXECUTED",
+      "motivo": "no existe evals/responses/T12.md"
+    }
+  ]
+}

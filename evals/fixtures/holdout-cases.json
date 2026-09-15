@@ -1,0 +1,81 @@
+{
+  "_comment": [
+    "HOLDOUT DÉBIL. Escrito DESPUÉS de reescribir las descripciones, a propósito con",
+    "vocabulario distinto del de routing-cases.json Y del de las descripciones nuevas.",
+    "",
+    "Qué prueba: si la mejora de la Fase 1 generaliza, o si solo memoriza las 12 frases",
+    "del fixture original.",
+    "",
+    "LIMITACIÓN, dicha sin rodeos: lo escribe el mismo autor que reescribió las",
+    "descripciones. No es un holdout independiente. Es la comprobación más honesta",
+    "posible dentro de esta sesión, no una prueba limpia.",
+    "",
+    "NO sustituye a routing-cases.json, que se mantiene intacto como baseline."
+  ],
+  "cases": [
+    {
+      "id": "H01",
+      "query": "llevo tres meses con esto y sigo sin saber si alguien lo usa de verdad",
+      "expected_primary": "analista-datos",
+      "optional_secondary": ["cmo-godin"],
+      "should_not_route_to": ["devops-hightower"],
+      "note": "Reachability de analista-datos con palabras nuevas."
+    },
+    {
+      "id": "H02",
+      "query": "un conocido me ha pedido presupuesto y no tengo ni idea de qué cifra decirle",
+      "expected_primary": "cfo-precios",
+      "optional_secondary": ["ventas-ross"],
+      "should_not_route_to": ["dev-dhh"],
+      "note": "Reachability de cfo-precios sin decir precio ni cobrar."
+    },
+    {
+      "id": "H03",
+      "query": "creo que se me ha quedado una contraseña dentro de los archivos que subo",
+      "expected_primary": "seguridad",
+      "optional_secondary": ["devops-hightower"],
+      "should_not_route_to": ["cmo-godin"],
+      "note": "Secreto expuesto, contado con palabras cotidianas."
+    },
+    {
+      "id": "H04",
+      "query": "cada vez que subo una versión algo deja de ir y no sé cómo dejarlo como estaba",
+      "expected_primary": "devops-hightower",
+      "optional_secondary": ["qa-bach"],
+      "should_not_route_to": ["cmo-godin", "cfo-precios"],
+      "note": "Rollback y despliegue sin jerga."
+    },
+    {
+      "id": "H05",
+      "query": "la mitad de la gente rellena el formulario y lo deja antes de enviarlo",
+      "expected_primary": "ux-norman",
+      "optional_secondary": ["analista-datos"],
+      "should_not_route_to": ["director-arte"],
+      "note": "Abandono de flujo, sin decir confunde ni se atasca."
+    },
+    {
+      "id": "H06",
+      "query": "quiero que cuando alguien reserve le llegue el aviso sin que yo haga nada",
+      "expected_primary": "coo-graham",
+      "optional_secondary": ["dev-dhh"],
+      "should_not_route_to": ["ventas-ross", "cmo-godin"],
+      "note": "HUECO CONOCIDO. Se espera que siga fallando: nadie posee automatización."
+    },
+    {
+      "id": "H07",
+      "query": "antes de meterle dos meses a esto quiero saber en qué me puedo estar equivocando",
+      "expected_primary": "munger-critico",
+      "optional_secondary": ["pm-producto"],
+      "should_not_route_to": ["ui-duarte"],
+      "note": "Pre-mortem sin decir pre-mortem ni riesgo."
+    },
+    {
+      "id": "H08",
+      "query": "me han mandado un contrato para firmar y hay una cláusula que no entiendo",
+      "expected_primary": "legal-basico",
+      "optional_secondary": [],
+      "should_not_route_to": ["cfo-precios", "seguridad"],
+      "note": "Legal directo."
+    }
+  ]
+}

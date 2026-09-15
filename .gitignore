@@ -5,3 +5,8 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Artefacto regenerable del Tier 2: volcado completo de la matriz de colisiones.
+# Se rehace con  python evals/tier2_similarity.py --json <ruta>  y sale
+# byte-identico, asi que versionarlo solo aniade ruido al diff.
+evals/results-v0.2-phase2-colisiones.json

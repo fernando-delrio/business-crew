@@ -1,0 +1,283 @@
+{
+  "fixture": "external-style-cases.json",
+  "casos": [
+    {
+      "id": "E01",
+      "query": "me hicisteis la página hace medio año y yo no noto nada, no sé si sirve para algo",
+      "expected": "analista-datos",
+      "top3": [
+        "analista-datos"
+      ],
+      "scores": [
+        0.203
+      ],
+      "expected_score": 0.2031,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.2031
+    },
+    {
+      "id": "E02",
+      "query": "un chaval me ha pedido seiscientos euros por hacerme esto, ¿eso está bien o me está clavando?",
+      "expected": "cfo-precios",
+      "top3": [
+        "devops-hightower",
+        "seguridad",
+        "munger-critico"
+      ],
+      "scores": [
+        0.171,
+        0.152,
+        0.107
+      ],
+      "expected_score": 0.0,
+      "expected_reachable": false,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": true,
+      "margin": 0.0191
+    },
+    {
+      "id": "E03",
+      "query": "me paso el día mandando los mismos mensajes una y otra vez, esto no puede ser",
+      "expected": "coo-graham",
+      "top3": [
+        "coo-graham",
+        "/crew",
+        "scrum-master"
+      ],
+      "scores": [
+        0.272,
+        0.205,
+        0.148
+      ],
+      "expected_score": 0.2724,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.0678
+    },
+    {
+      "id": "E04",
+      "query": "lo subí ayer y hoy no carga, en mi portátil iba perfecto",
+      "expected": "devops-hightower",
+      "top3": [
+        "scrum-master"
+      ],
+      "scores": [
+        0.193
+      ],
+      "expected_score": 0.0,
+      "expected_reachable": false,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.1927
+    },
+    {
+      "id": "E05",
+      "query": "llevo veinte minutos buscando dónde se cancela esto y no hay manera",
+      "expected": "ux-norman",
+      "top3": [
+        "qa-bach",
+        "/hill",
+        "scrum-master"
+      ],
+      "scores": [
+        0.136,
+        0.13,
+        0.121
+      ],
+      "expected_score": 0.0,
+      "expected_reachable": false,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": true,
+      "margin": 0.0059
+    },
+    {
+      "id": "E06",
+      "query": "mi socio dice que esto va a funcionar seguro y a mí me da mala espina",
+      "expected": "munger-critico",
+      "top3": [
+        "munger-critico",
+        "ux-norman",
+        "analista-datos"
+      ],
+      "scores": [
+        0.224,
+        0.081,
+        0.081
+      ],
+      "expected_score": 0.2242,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.143
+    },
+    {
+      "id": "E07",
+      "query": "me han mandado unos papeles para firmar y no me entero de la mitad",
+      "expected": "legal-basico",
+      "top3": [
+        "legal-basico",
+        "ux-norman",
+        "scrum-master"
+      ],
+      "scores": [
+        0.12,
+        0.118,
+        0.111
+      ],
+      "expected_score": 0.1196,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": true,
+      "margin": 0.002
+    },
+    {
+      "id": "E08",
+      "query": "he puesto lo mismo que ponen todos y no me llama ni dios",
+      "expected": "cmo-godin",
+      "top3": [
+        "seguridad"
+      ],
+      "scores": [
+        0.203
+      ],
+      "expected_score": 0.0,
+      "expected_reachable": false,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.2029
+    },
+    {
+      "id": "E09",
+      "query": "se me ha quedado el usuario y la contraseña escritos en un archivo que he subido",
+      "expected": "seguridad",
+      "top3": [
+        "/ship",
+        "analista-datos",
+        "devops-hightower"
+      ],
+      "scores": [
+        0.151,
+        0.117,
+        0.099
+      ],
+      "expected_score": 0.0,
+      "expected_reachable": false,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": true,
+      "margin": 0.0341
+    },
+    {
+      "id": "E10",
+      "query": "no me gusta cómo ha quedado, no sé, le falta algo",
+      "expected": "director-arte",
+      "top3": [
+        "dev-dhh",
+        "director-arte",
+        "design-direction"
+      ],
+      "scores": [
+        0.178,
+        0.16,
+        0.155
+      ],
+      "expected_score": 0.1598,
+      "expected_reachable": true,
+      "top1_ok": false,
+      "top3_ok": true,
+      "forbidden_in_top3": [
+        "dev-dhh"
+      ],
+      "forbidden_above_primary": [
+        "dev-dhh"
+      ],
+      "ambiguous": true,
+      "margin": 0.0181
+    },
+    {
+      "id": "E11",
+      "query": "tengo dos maneras de hacerlo, una sale antes y la otra cuesta menos, y llevo días dándole vueltas",
+      "expected": "decision-framing",
+      "top3": [
+        "/hill",
+        "scrum-master",
+        "cfo-precios"
+      ],
+      "scores": [
+        0.308,
+        0.169,
+        0.112
+      ],
+      "expected_score": 0.0645,
+      "expected_reachable": true,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [
+        "cfo-precios"
+      ],
+      "forbidden_above_primary": [
+        "cfo-precios"
+      ],
+      "ambiguous": false,
+      "margin": 0.1392
+    },
+    {
+      "id": "E12",
+      "query": "empecé hace un mes y no he acabado nada, salto de una cosa a otra",
+      "expected": "scrum-master",
+      "top3": [
+        "pm-producto"
+      ],
+      "scores": [
+        0.365
+      ],
+      "expected_score": 0.0,
+      "expected_reachable": false,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.3653
+    }
+  ],
+  "metricas": {
+    "TOP-1": 33.333333333333336,
+    "TOP-3": 41.666666666666664,
+    "UNNECESSARY": 16.666666666666668,
+    "MISSING": 58.333333333333336,
+    "AMBIGUOUS": 41.666666666666664,
+    "UNREACHABLE": 50.0,
+    "FORBIDDEN-ABOVE-PRIMARY": 16.666666666666668,
+    "NO-ROUTE": 0.0
+  }
+}

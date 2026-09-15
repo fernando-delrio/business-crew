@@ -1,0 +1,195 @@
+{
+  "fixture": "holdout-cases.json",
+  "casos": [
+    {
+      "id": "H01",
+      "query": "llevo tres meses con esto y sigo sin saber si alguien lo usa de verdad",
+      "expected": "analista-datos",
+      "top3": [
+        "analista-datos",
+        "/hill",
+        "munger-critico"
+      ],
+      "scores": [
+        0.129,
+        0.124,
+        0.118
+      ],
+      "expected_score": 0.1287,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": true,
+      "margin": 0.0052
+    },
+    {
+      "id": "H02",
+      "query": "un conocido me ha pedido presupuesto y no tengo ni idea de qué cifra decirle",
+      "expected": "cfo-precios",
+      "top3": [
+        "cfo-precios",
+        "pm-producto",
+        "analista-datos"
+      ],
+      "scores": [
+        0.151,
+        0.127,
+        0.119
+      ],
+      "expected_score": 0.1509,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": true,
+      "margin": 0.024
+    },
+    {
+      "id": "H03",
+      "query": "creo que se me ha quedado una contraseña dentro de los archivos que subo",
+      "expected": "seguridad",
+      "top3": [
+        "devops-hightower",
+        "seguridad",
+        "decision-framing"
+      ],
+      "scores": [
+        0.129,
+        0.119,
+        0.105
+      ],
+      "expected_score": 0.1193,
+      "expected_reachable": true,
+      "top1_ok": false,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": true,
+      "margin": 0.0093
+    },
+    {
+      "id": "H04",
+      "query": "cada vez que subo una versión algo deja de ir y no sé cómo dejarlo como estaba",
+      "expected": "devops-hightower",
+      "top3": [
+        "devops-hightower",
+        "cfo-precios"
+      ],
+      "scores": [
+        0.23,
+        0.118
+      ],
+      "expected_score": 0.2295,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [
+        "cfo-precios"
+      ],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.111
+    },
+    {
+      "id": "H05",
+      "query": "la mitad de la gente rellena el formulario y lo deja antes de enviarlo",
+      "expected": "ux-norman",
+      "top3": [
+        "ux-norman",
+        "legal-basico",
+        "analista-datos"
+      ],
+      "scores": [
+        0.192,
+        0.11,
+        0.084
+      ],
+      "expected_score": 0.1924,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.0828
+    },
+    {
+      "id": "H06",
+      "query": "quiero que cuando alguien reserve le llegue el aviso sin que yo haga nada",
+      "expected": "coo-graham",
+      "top3": [
+        "/hill",
+        "analista-datos",
+        "munger-critico"
+      ],
+      "scores": [
+        0.189,
+        0.12,
+        0.095
+      ],
+      "expected_score": 0.0,
+      "expected_reachable": false,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.0695
+    },
+    {
+      "id": "H07",
+      "query": "antes de meterle dos meses a esto quiero saber en qué me puedo estar equivocando",
+      "expected": "munger-critico",
+      "top3": [
+        "munger-critico",
+        "ventas-ross",
+        "ux-norman"
+      ],
+      "scores": [
+        0.174,
+        0.127,
+        0.107
+      ],
+      "expected_score": 0.1744,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": true,
+      "margin": 0.0476
+    },
+    {
+      "id": "H08",
+      "query": "me han mandado un contrato para firmar y hay una cláusula que no entiendo",
+      "expected": "legal-basico",
+      "top3": [
+        "legal-basico"
+      ],
+      "scores": [
+        0.207
+      ],
+      "expected_score": 0.2071,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "forbidden_above_primary": [],
+      "ambiguous": false,
+      "margin": 0.2071
+    }
+  ],
+  "metricas": {
+    "TOP-1": 75.0,
+    "TOP-3": 87.5,
+    "UNNECESSARY": 12.5,
+    "MISSING": 12.5,
+    "AMBIGUOUS": 50.0,
+    "UNREACHABLE": 12.5,
+    "FORBIDDEN-ABOVE-PRIMARY": 0.0,
+    "NO-ROUTE": 0.0
+  }
+}

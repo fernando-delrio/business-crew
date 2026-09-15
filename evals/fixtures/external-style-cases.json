@@ -1,0 +1,129 @@
+{
+  "_comment": [
+    "TERCER FIXTURE — voces ajenas al sistema.",
+    "",
+    "PROTOCOLO ANTI-CIRCULARIDAD: este archivo se escribió ANTES de reescribir las",
+    "descripciones de la Fase 2. No se puede haber ajustado el sistema a estas frases,",
+    "porque cuando se escribieron las descripciones aún no existían.",
+    "",
+    "Regla de redacción: cada caso se formula como lo diría el perfil indicado, no como",
+    "lo diría alguien que conoce el catálogo. Frases cortas, coloquiales, a veces",
+    "imprecisas o mal planteadas. NO se ha buscado vocabulario que favorezca al sistema;",
+    "en varios casos se ha buscado deliberadamente lo contrario.",
+    "",
+    "CONGELADO: una vez escrito, no se reescribe ninguna frase aunque dé mal resultado.",
+    "Un fixture que se retoca para subir la nota deja de medir.",
+    "",
+    "Cero datos reales: los perfiles son arquetipos, no personas."
+  ],
+  "cases": [
+    {
+      "id": "E01",
+      "persona": "peluquera",
+      "query": "me hicisteis la página hace medio año y yo no noto nada, no sé si sirve para algo",
+      "expected_primary": "analista-datos",
+      "optional_secondary": ["cmo-godin"],
+      "should_not_route_to": ["devops-hightower", "ui-duarte"],
+      "reason": "Duda sobre impacto sin ninguna palabra de analítica. Ni medir, ni métrica, ni datos."
+    },
+    {
+      "id": "E02",
+      "persona": "dueño de bar",
+      "query": "un chaval me ha pedido seiscientos euros por hacerme esto, ¿eso está bien o me está clavando?",
+      "expected_primary": "cfo-precios",
+      "optional_secondary": ["analista-thompson"],
+      "should_not_route_to": ["dev-dhh", "legal-basico"],
+      "reason": "Precio desde el lado del que paga, no del que cobra. Vocabulario de calle."
+    },
+    {
+      "id": "E03",
+      "persona": "autónomo",
+      "query": "me paso el día mandando los mismos mensajes una y otra vez, esto no puede ser",
+      "expected_primary": "coo-graham",
+      "optional_secondary": ["pm-producto"],
+      "should_not_route_to": ["cmo-godin", "ventas-ross"],
+      "reason": "Trabajo operativo repetido. Es la responsabilidad real de coo-graham: qué merece automatizarse. No pide arquitectura."
+    },
+    {
+      "id": "E04",
+      "persona": "programador junior",
+      "query": "lo subí ayer y hoy no carga, en mi portátil iba perfecto",
+      "expected_primary": "devops-hightower",
+      "optional_secondary": ["qa-bach"],
+      "should_not_route_to": ["cmo-godin", "cfo-precios"],
+      "reason": "El clásico funciona-en-mi-máquina, dicho sin decir entorno, despliegue ni CI."
+    },
+    {
+      "id": "E05",
+      "persona": "cliente enfadado",
+      "query": "llevo veinte minutos buscando dónde se cancela esto y no hay manera",
+      "expected_primary": "ux-norman",
+      "optional_secondary": ["ui-duarte"],
+      "should_not_route_to": ["director-arte", "seguridad"],
+      "reason": "Queja real de usuario. No dice confunde, ni flujo, ni usabilidad."
+    },
+    {
+      "id": "E06",
+      "persona": "responsable de negocio",
+      "query": "mi socio dice que esto va a funcionar seguro y a mí me da mala espina",
+      "expected_primary": "munger-critico",
+      "optional_secondary": ["ceo-bezos"],
+      "should_not_route_to": ["qa-bach", "seguridad"],
+      "reason": "Duda ante exceso de confianza ajeno. Ni riesgo, ni pre-mortem, ni fallar."
+    },
+    {
+      "id": "E07",
+      "persona": "persona no técnica",
+      "query": "me han mandado unos papeles para firmar y no me entero de la mitad",
+      "expected_primary": "legal-basico",
+      "optional_secondary": [],
+      "should_not_route_to": ["cfo-precios", "pm-producto"],
+      "reason": "Caso fácil a propósito: sirve de control. Si este falla, algo va muy mal."
+    },
+    {
+      "id": "E08",
+      "persona": "autónomo",
+      "query": "he puesto lo mismo que ponen todos y no me llama ni dios",
+      "expected_primary": "cmo-godin",
+      "optional_secondary": ["ventas-ross"],
+      "should_not_route_to": ["ui-duarte", "analista-datos"],
+      "reason": "Problema de mensaje genérico, dicho en bruto. Sin posicionamiento ni audiencia."
+    },
+    {
+      "id": "E09",
+      "persona": "programador junior",
+      "query": "se me ha quedado el usuario y la contraseña escritos en un archivo que he subido",
+      "expected_primary": "seguridad",
+      "optional_secondary": ["devops-hightower"],
+      "should_not_route_to": ["legal-basico", "qa-bach"],
+      "reason": "Secreto expuesto. Ni expuesto, ni secreto, ni credencial: lo cuenta como pasó."
+    },
+    {
+      "id": "E10",
+      "persona": "dueño de bar",
+      "query": "no me gusta cómo ha quedado, no sé, le falta algo",
+      "expected_primary": "director-arte",
+      "optional_secondary": ["ui-duarte"],
+      "should_not_route_to": ["ux-norman", "dev-dhh"],
+      "reason": "Insatisfacción visual vaga. Deliberadamente imprecisa: es como se dice de verdad."
+    },
+    {
+      "id": "E11",
+      "persona": "responsable de negocio",
+      "query": "tengo dos maneras de hacerlo, una sale antes y la otra cuesta menos, y llevo días dándole vueltas",
+      "expected_primary": "decision-framing",
+      "optional_secondary": ["pm-producto", "ceo-bezos"],
+      "should_not_route_to": ["cfo-precios"],
+      "reason": "El único caso donde el PROCEDIMIENTO debe ganar: ya existen alternativas concretas y el problema es compararlas. Pone a prueba DOMAIN FIRST / PROCEDURE SECOND en la dirección contraria."
+    },
+    {
+      "id": "E12",
+      "persona": "autónomo",
+      "query": "empecé hace un mes y no he acabado nada, salto de una cosa a otra",
+      "expected_primary": "scrum-master",
+      "optional_secondary": ["/hill"],
+      "should_not_route_to": ["ceo-bezos", "cfo-precios"],
+      "reason": "Dispersión y falta de cierre. Ni ciclo, ni apuesta, ni siguiente paso."
+    }
+  ]
+}

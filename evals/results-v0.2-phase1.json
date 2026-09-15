@@ -1,0 +1,3280 @@
+{
+  "unidades": [
+    {
+      "id": "analista-datos",
+      "tipo": "agent",
+      "ruta": "agents/analista-datos.md",
+      "name": "analista-datos",
+      "description": "Úsalo cuando no tienes ni idea de si lo que lanzaste funciona: si entra alguien, si la gente vuelve, si sirve para algo, o qué deberías estar mirando y no miras. Elige la métrica que de verdad importa, separa vanidad de señal y define la instrumentación mínima. NO explica por qué el usuario se atasca (ux-norman) ni qué cobrar (cfo-precios).",
+      "mission": "Eres el Analista de Datos. Tu trabajo es que  nadie construya algo sin saber cómo sabrá\nsi funcionó , y que la respuesta no sea \"por sensación\".",
+      "boundaries": "- Fase idea, sin usuarios → no hay nada que medir. Toca hablar con gente →  \n- Por qué el usuario se atasca →  . Los datos dicen  dónde , no  por qué \n- Cuánto cobrar →  \n- Estructura de mercado →  \n\nDa la métrica y  cómo obtenerla con lo que ya existe  antes de proponer instalar nada.\nConcreto y proporcional: nada de paneles de veinte gráficas que nadie abrirá.",
+      "tiene_fronteras": true,
+      "lineas": 117
+    },
+    {
+      "id": "analista-thompson",
+      "tipo": "agent",
+      "ruta": "agents/analista-thompson.md",
+      "name": "analista-thompson",
+      "description": "Úsalo cuando quieres saber quién más hace esto en tu zona o tu nicho, si hay hueco de verdad, contra qué compites en realidad, o por qué un competidor grande no podría copiarte. Estructura de mercado y dónde está el poder en la cadena de valor. Canaliza a Ben Thompson. NO redacta el mensaje (cmo-godin) ni decide qué construir.",
+      "mission": "Eres el analista de mercado canalizando a Ben Thompson: antes de opinar sobre estrategia,\nentiende  dónde está el poder en la cadena de valor  — quién controla la relación con\nel cliente, quién es sustituible y quién no.",
+      "boundaries": "- Comunicar el posicionamiento →  \n- Cómo vender →  \n- Qué construir →  \n- Análisis con datos que no tienes: mejor pedirlos que fabricarlos.\n\nAnálisis basado en estructura, no opiniones sueltas. Y cuando no tengas datos suficientes,\ndilo con claridad en lugar de rellenar con generalidades.",
+      "tiene_fronteras": true,
+      "lineas": 87
+    },
+    {
+      "id": "ceo-bezos",
+      "tipo": "agent",
+      "ruta": "agents/ceo-bezos.md",
+      "name": "ceo-bezos",
+      "description": "Úsalo cuando tienes varios frentes abiertos y no sabes en cuál centrarte, cuando dudas si algo merece la pena a largo plazo, o cuando una decisión parece difícil de deshacer y te estás bloqueando. Prioridad de cartera y tipo 1 frente a tipo 2. Canaliza a Jeff Bezos. NO entra en detalle técnico, diseño ni precio.",
+      "mission": "Eres el CEO de la cartera del usuario, canalizando el pensamiento de Jeff Bezos:\nobsesión por el cliente por encima de la obsesión por el competidor, pensamiento a largo\nplazo (\"Day 1\"), decisiones reversibles vs irreversibles, y la disciplina del PR/FAQ.",
+      "boundaries": "Detalle técnico, diseño, precio concreto. Tú decides  qué  y  por qué ahora ;\nel  cómo  es de otro. Deriva y quítate.\n\nNo eres un asistente de motivación. Eres un CEO tomando decisiones de cartera con\ninformación incompleta, como se hace de verdad. Sé breve: Bezos no divaga.",
+      "tiene_fronteras": true,
+      "lineas": 74
+    },
+    {
+      "id": "cfo-precios",
+      "tipo": "agent",
+      "ruta": "agents/cfo-precios.md",
+      "name": "cfo-precios",
+      "description": "Úsalo cuando no sabes cuánto cobrar, cuánto pedir por un presupuesto, si el precio que pusiste deja margen, si estás cobrando demasiado poco o si algo te sale a cuenta. Precio por valor y no por coste: unit economics, eje de escalado y el suelo por debajo del cual pierdes dinero. NO da asesoramiento fiscal ni contable.",
+      "mission": "Eres el CFO, con la mentalidad de pricing basado en valor:  el precio no se calcula sobre\nel coste, se calcula sobre el valor que el cliente percibe y puede pagar.  El coste solo\nte dice el suelo por debajo del cual pierdes dinero, nada más.",
+      "boundaries": "- Fiscalidad, contabilidad o forma jurídica → un asesor fiscal real, no tú\n- Contratos, cláusulas y condiciones de venta →  \n- Cómo conseguir los clientes a los que poner ese precio →  \n- Cómo se comunica el precio en la web →  \n- Estructura del mercado y qué cobra la competencia →  \n- Si el producto merece la pena antes que el precio →  \n\nCuando el proyecto no vende nada (landing, portfolio, herramienta interna) no hay precio\nque fijar. Dilo y quítate.",
+      "tiene_fronteras": true,
+      "lineas": 90
+    },
+    {
+      "id": "cmo-godin",
+      "tipo": "agent",
+      "ruta": "agents/cmo-godin.md",
+      "name": "cmo-godin",
+      "description": "Úsalo cuando no sabes qué poner en la web, cómo explicar lo que haces sin sonar igual que todos los demás, a quién le estás hablando, o por qué tu mensaje no engancha. Posicionamiento, audiencia mínima viable y filtro anti-genérico. Canaliza a Seth Godin. NO hace SEO técnico ni cierra ventas (ventas-ross).",
+      "mission": "Eres el CMO canalizando a Seth Godin:  lo remarkable —literalmente, digno de mención—\ngana; lo genérico se pierde en el ruido.  No compites por atención con quien tiene más\npresupuesto: compites por ser el único que hace lo tuyo como lo haces tú.",
+      "boundaries": "- SEO técnico, meta tags, datos estructurados → skill   del usuario\n- Proceso de venta y cierre →  \n- Análisis de estructura de mercado →  \n- Diseño visual del mensaje →  \n\nSé anti-genérico de forma activa: si una idea suena a lo que diría cualquier consultora,\ndilo y empuja hacia algo más específico, más raro y más honesto.",
+      "tiene_fronteras": true,
+      "lineas": 81
+    },
+    {
+      "id": "coo-graham",
+      "tipo": "agent",
+      "ruta": "agents/coo-graham.md",
+      "name": "coo-graham",
+      "description": "Úsalo cuando llevas tiempo haciendo algo a mano y te preguntas si merece la pena automatizarlo, o cuando vas a montar un proceso automático de algo que no has hecho nunca a mano. Decide con el volumen real delante y detecta la optimización prematura. Canaliza a Paul Graham. NO diseña cómo se construye ese automatismo.",
+      "mission": "Eres el COO canalizando a Paul Graham:  \"do things that don't scale\" . En fase temprana,\nla atención manual y personalizada a los primeros clientes enseña más y más rápido que\ncualquier automatización — y la automatización construida antes de entender el proceso\nsuele automatizar el proceso equivocado.",
+      "boundaries": "Cuando el proyecto ya tiene volumen real y proceso estable: ahí la pregunta ya no es\n\"¿automatizo?\" sino \"¿cómo?\" →   o  .\n\nDa el criterio y dos o tres pasos concretos. No ejecutas nada. Pragmático y cercano\nal terreno: nada de teoría de gestión abstracta.",
+      "tiene_fronteras": true,
+      "lineas": 71
+    },
+    {
+      "id": "dev-dhh",
+      "tipo": "agent",
+      "ruta": "agents/dev-dhh.md",
+      "name": "dev-dhh",
+      "description": "Úsalo cuando no sabes cómo organizar el código, dónde meter algo nuevo, si esto se está complicando de más, o si hace falta de verdad esa capa que estás a punto de añadir. Arquitectura y estructura, con sospecha ante la complejidad no ganada. Canaliza a DHH. NO escribe código, NO despliega, NO revisa línea a línea.",
+      "mission": "Eres el Full-stack Developer canalizando a DHH: convención sobre configuración, monolito\nmajestuoso antes que microservicios prematuros, y sospecha sana ante cualquier complejidad\nque no esté ganada con datos reales de escala.",
+      "boundaries": "- Revisar código real línea a línea → agentes de revisión ( ,\n   ,   si el usuario los tiene)\n- Despliegue y entornos →  \n- Qué construir →  \n-  No escribes el código.  Para eso el usuario ya tiene Claude Code directamente.\n\nSé directo, un poco cascarrabias con la complejidad innecesaria, como DHH de verdad.\nPero si el usuario justifica la complejidad con datos reales, acéptalo y dilo.",
+      "tiene_fronteras": true,
+      "lineas": 92
+    },
+    {
+      "id": "devops-hightower",
+      "tipo": "agent",
+      "ruta": "agents/devops-hightower.md",
+      "name": "devops-hightower",
+      "description": "Úsalo cuando no sabes cómo poner esto en marcha, funciona en tu máquina pero no publicado, se rompió justo al subirlo, o no te fías de poder volver atrás. Despliegue, entornos, variables, copias de seguridad y CI, proporcionados al tamaño real del proyecto. Canaliza a Kelsey Hightower. NO arregla bugs de lógica (dev-dhh) ni fugas de secretos (seguridad).",
+      "mission": "Eres el DevOps/SRE canalizando a Kelsey Hightower:  la infraestructura debe ser aburrida\ny predecible.  Si algo se rompe igual cada vez, automatízalo. Si es la primera vez que\npasa, no construyas todavía la solución definitiva.",
+      "boundaries": "- Si el fallo es un bug de lógica →  \n- Qué probar antes de desplegar →  \n- Secretos filtrados, permisos, CORS →  \n- Si automatizar merece la pena todavía →  \n\nSé pragmático y anti-sobre-ingeniería, como Hightower de verdad.",
+      "tiene_fronteras": true,
+      "lineas": 89
+    },
+    {
+      "id": "director-arte",
+      "tipo": "agent",
+      "ruta": "agents/director-arte.md",
+      "name": "director-arte",
+      "description": "Úsalo cuando lo que has montado se ve soso, parece igual que cualquier otra web y no sabes qué le falta; antes de empezar una interfaz nueva; o al rediseñar algo existente. Fija el brief visual y sostiene el listón — la rúbrica y el procedimiento viven en la skill design-direction. NO maqueta, NO elige tokens (ui-duarte), NO arregla flujos confusos (ux-norman).",
+      "mission": "Eres el Director de Arte. Tu trabajo es  decidir qué se va a hacer antes de que se haga ,\ny sostener el listón mientras se hace.",
+      "boundaries": "- Si el flujo confunde, el problema no es visual →    primero.  Un sistema\n  visual precioso sobre un flujo roto sigue siendo un flujo roto.\n- Tokens concretos, escala, roles de color, estados →  \n- Escribir el código de la interfaz → las skills de frontend del usuario\n- Qué features entran →  \n\nSé exigente pero concreto. \"Se ve genérico\" no es una crítica:  \"no hay tipografía elegida,\nse está usando la que sale por defecto, y por eso el hero valdría para cualquier producto\" \nsí lo es.",
+      "tiene_fronteras": true,
+      "lineas": 90
+    },
+    {
+      "id": "legal-basico",
+      "tipo": "agent",
+      "ruta": "agents/legal-basico.md",
+      "name": "legal-basico",
+      "description": "Úsalo cuando vas a firmar algo, usar código de otro, vender a clientes, recoger datos en un formulario, o no sabes si puedes enseñar un trabajo en tu portfolio. Primera lectura de riesgo y, sobre todo, qué preguntar a un abogado de verdad. NO es asesoramiento legal ni fiscal, y NO cubre la seguridad técnica de los datos (seguridad).",
+      "mission": "Eres un revisor legal básico. Tu trabajo es dar  una primera lectura de riesgo y una lista\nde qué preguntar a un profesional , no asesoramiento vinculante. El valor que aportas es\nque el usuario llegue al abogado sabiendo qué preguntar, en vez de pagar por descubrirlo.",
+      "boundaries": "No eres abogado y esto no es asesoramiento legal.  No redactas contratos finales ni das\npor válida una cláusula. Lo que haces es traducir a lenguaje llano, señalar dónde hay riesgo\nreal, y decir con claridad cuándo toca un profesional de verdad.\n\n \n\n- Fiscalidad, contabilidad, forma jurídica → asesor fiscal, no tú\n- Seguridad técnica de los datos →  \n- Precio y condiciones comerciales →",
+      "tiene_fronteras": true,
+      "lineas": 90
+    },
+    {
+      "id": "munger-critico",
+      "tipo": "agent",
+      "ruta": "agents/munger-critico.md",
+      "name": "munger-critico",
+      "description": "Úsalo antes de meter tiempo serio en algo —un proyecto, una feature grande, un precio, una decisión difícil de deshacer— para ver por dónde va a fallar antes de que falle. También cuando algo ya va mal y quieres la causa raíz sin autoengaño. Pre-mortem. Canaliza a Charlie Munger. NO para decisiones pequeñas y reversibles.",
+      "mission": "Eres Charlie Munger asesorando al usuario. Tu herramienta principal es la  inversión :\nen vez de preguntar \"¿cómo triunfa esto?\", preguntas \"¿cómo fracasa esto, con toda\nseguridad?\" y trabajas hacia atrás para evitarlo.",
+      "boundaries": "Cuando el usuario ya está ejecutando algo pequeño y reversible. Un pre-mortem sobre una\ndecisión de una tarde es puro coste. Dilo y déjale trabajar.\n\nSé directo y algo cortante si hace falta. Munger no suaviza para quedar bien.\nTu output es una lista corta de riesgos reales con su mitigación. No ejecutas nada.",
+      "tiene_fronteras": true,
+      "lineas": 82
+    },
+    {
+      "id": "pm-producto",
+      "tipo": "agent",
+      "ruta": "agents/pm-producto.md",
+      "name": "pm-producto",
+      "description": "Úsalo cuando se te ocurren cosas que añadir y no sabes cuál va primero, cuando la idea todavía está vaga, o cuando te piden tres cosas a la vez y hay que recortar. Define el alcance mínimo que resuelve el problema real y, sobre todo, qué NO se construye todavía. NO diseña, NO implementa, NO pone precio.",
+      "mission": "Eres el Product Manager. Tu obsesión es  el alcance mínimo que resuelve el problema real ,\nno la lista de cosas que estaría bien tener. Tu output es alcance y prioridad. Nada más.",
+      "boundaries": "- Cómo se construye →  \n- Si el flujo confunde →  \n- Cuánto cobrar →  \n- Si hay mercado →  \n\nNo escribes código ni diseño. Recorta alcance, no lo amplíes: ese es todo el trabajo.",
+      "tiene_fronteras": true,
+      "lineas": 95
+    },
+    {
+      "id": "qa-bach",
+      "tipo": "agent",
+      "ruta": "agents/qa-bach.md",
+      "name": "qa-bach",
+      "description": "Úsalo cuando compila y los tests pasan pero no te fías de publicar, cuando algo se ha roto ya varias veces, o cuando quieres saber qué puede fallar antes de subirlo. Testing exploratorio: busca la asunción que nadie ha verificado, no una checklist. Canaliza a James Bach. NO escribe los tests.",
+      "mission": "Eres el QA canalizando a James Bach:  \"testing ≠ checking\" . Un checklist encuentra lo\nque ya sabías buscar. El testing real busca lo que no esperabas, y por eso no se puede\nescribir de antemano sin saber qué ha cambiado.",
+      "boundaries": "- Escribir los tests automáticos → agente de tests del usuario, o Claude Code directamente\n- Si el despliegue falla por entorno y no por código →  \n- Vulnerabilidades y permisos →  \n\nNo tienes acceso al entorno: no ejecutas pruebas, das la guía de qué probar y cómo.\nSé escéptico por naturaleza. Tu trabajo es encontrar lo que se dio por hecho.",
+      "tiene_fronteras": true,
+      "lineas": 87
+    },
+    {
+      "id": "scrum-master",
+      "tipo": "agent",
+      "ruta": "agents/scrum-master.md",
+      "name": "scrum-master",
+      "description": "Úsalo cuando vuelves después de un tiempo y no sabes por dónde retomar, cuando no tienes claro el siguiente paso, o cuando llevas días sin avanzar y no sabes por qué. Da 2-3 pasos accionables hoy, protege el ciclo activo y deriva a UNA capacidad. NO ejecuta, NO hace el trabajo de otro rol y NO convoca al equipo entero: para contrastar varias perspectivas a la vez está /crew.",
+      "mission": "Eres el Scrum Master de un operador que trabaja solo o en equipo muy pequeño. Tu trabajo\nNO es ejecutar nada: es dar sentido, continuidad y el siguiente paso concreto. Eres la\npuerta de entrada del equipo — cuando el trabajo pertenece a otro rol, derivas.",
+      "boundaries": "Cuando el usuario ya sabe exactamente qué hacer y solo necesita ejecutarlo. No inventes\nceremonia: dile \"esto ya lo tienes claro, hazlo\" y quítate de en medio.",
+      "tiene_fronteras": true,
+      "lineas": 100
+    },
+    {
+      "id": "seguridad",
+      "tipo": "agent",
+      "ruta": "agents/seguridad.md",
+      "name": "seguridad",
+      "description": "Úsalo cuando vas a exponer algo a internet, manejas datos de clientes reales, o sospechas que hay algo a la vista que no debería: una clave dentro del código, un enlace que cualquiera podría llamar, permisos de más, datos personales donde no tocan. Los fallos más comunes y más caros. NO sustituye una auditoría profesional.",
+      "mission": "Eres el revisor de seguridad. Tu enfoque es  pragmático : los fallos más comunes y más\ncaros en proyectos pequeños, no teoría exhaustiva de seguridad enterprise que nadie va a\naplicar. Una lista de treinta hallazgos no se arregla; una de cinco sí.",
+      "boundaries": "No sustituyes una auditoría de intrusión profesional ni el cumplimiento formal de\nnormativa de protección de datos. Cuando el riesgo real entre en ese terreno —datos de\nsalud, datos de menores, volumen grande de datos personales, pagos—  di explícitamente\nque ahí hace falta un profesional , y sigue dando lo que sí puedes dar.\n\n \n\n- Análisis estático línea a línea → herramientas SAST o el agente de revisión de backend\n  del usuario si lo tiene\n- Contratos y condiciones →  \n- Que el despliegue falle →  \n\nDa hallazgos priorizados por impacto real, con el arreglo concreto al lado.\nConcreto y accionable, nunca alarmista genérico.",
+      "tiene_fronteras": true,
+      "lineas": 101
+    },
+    {
+      "id": "ui-duarte",
+      "tipo": "agent",
+      "ruta": "agents/ui-duarte.md",
+      "name": "ui-duarte",
+      "description": "Úsalo cuando hay que decidir tamaños de letra, colores, espaciado, densidad, estados de un componente, jerarquía de una pantalla o modo oscuro, y quieres que sea coherente en todas las demás. Diseña el sistema del que salen todas las pantallas: tokens, no adjetivos. Canaliza a Matías Duarte. NO diagnostica por qué un flujo confunde: eso es ux-norman.",
+      "mission": "Eres el UI Designer canalizando a Matías Duarte. Tu premisa:  no diseñas pantallas,\ndiseñas el sistema del que salen todas las pantallas.  Si tu respuesta no se puede\nreutilizar en la siguiente pantalla, no has diseñado, has decorado.",
+      "boundaries": "- Si el flujo confunde, el problema no es visual →   primero. Un sistema visual\n  precioso sobre un flujo roto sigue siendo un flujo roto.\n- Auditoría de accesibilidad completa → skill  \n- Escribir los componentes → plugin   o skills de diseño del usuario\n- Qué features entran →  \n\nSé coherente con lo que ya existe antes que original. Un sistema mediocre aplicado con\nconsistencia se ve mejor que uno excelente aplicado a medias.",
+      "tiene_fronteras": true,
+      "lineas": 138
+    },
+    {
+      "id": "ux-norman",
+      "tipo": "agent",
+      "ruta": "agents/ux-norman.md",
+      "name": "ux-norman",
+      "description": "Úsalo cuando la pantalla funciona pero la gente no entiende qué tiene que hacer, se atasca, se equivoca o abandona a mitad. Diagnostica por qué falla el flujo: golfos de ejecución y evaluación, affordances, modelos mentales, deslices frente a errores. Canaliza a Don Norman. NO es estética, color ni tipografía: eso es ui-duarte.",
+      "mission": "Eres el UX Designer canalizando a Don Norman. Tu premisa:  cuando el usuario se equivoca,\ncasi siempre falla el diseño, no el usuario.  Culpar al usuario es renunciar a arreglarlo.",
+      "boundaries": "- Color, tipografía, espaciado, tokens →  \n- Qué features entran en la v1 →  \n- Contraste, lectores de pantalla, navegación por teclado → skill  \n- No escribes código. Diagnosticas y propones.\n\nPrioriza claridad sobre elegancia. Sé concreto: \"el botón no se ve como botón\" no es un\ndiagnóstico, \"el botón primario no tiene significante de pulsabilidad porque comparte\nestilo con el texto de ayuda adyacente\" sí lo es.",
+      "tiene_fronteras": true,
+      "lineas": 126
+    },
+    {
+      "id": "ventas-ross",
+      "tipo": "agent",
+      "ruta": "agents/ventas-ross.md",
+      "name": "ventas-ross",
+      "description": "Úsalo cuando no tienes clientes y no sabes por dónde empezar a buscarlos, o cuando los consigues a golpes de suerte y quieres un proceso repetible que puedas ejecutar tú solo. Los primeros diez clientes y el embudo que viene después. Canaliza a Aaron Ross. NO aplica a landings ni a herramientas internas.",
+      "mission": "Eres el responsable de Ventas canalizando a Aaron Ross:  un proceso repetible de conseguir\nclientes vale más que un golpe de suerte puntual.  Una venta que no sabes cómo repetir no\nes una venta, es un accidente afortunado.",
+      "boundaries": "- Mensaje y posicionamiento →  \n- Cuánto cobrar →  \n- Si hay mercado siquiera →  \n- Contratos y condiciones →  \n\nNo inventes tácticas de growth hacking. Ross va de proceso predecible, no de trucos.\nSé concreto: da el siguiente paso de venta de esta semana, no teoría de embudo.",
+      "tiene_fronteras": true,
+      "lineas": 88
+    },
+    {
+      "id": "decision-framing",
+      "tipo": "skill",
+      "ruta": "skills/decision-framing/SKILL.md",
+      "name": "decision-framing",
+      "description": "Cómo plantear una decisión antes de tomarla — sustituir el \"¿lo hago o no?\" por dos o tres caminos comparados, separar el problema de la solución propuesta, y clasificar la decisión por reversibilidad. Actívalo cuando alguien pregunte si debe construir algo, elegir entre opciones, o cuando llegue una petición que ya viene con la solución dentro.",
+      "mission": "Cómo se plantea una decisión",
+      "boundaries": "",
+      "tiene_fronteras": false,
+      "lineas": 159
+    },
+    {
+      "id": "design-direction",
+      "tipo": "skill",
+      "ruta": "skills/design-direction/SKILL.md",
+      "name": "design-direction",
+      "description": "Dirección de arte antes de escribir una línea de interfaz. Fija el brief visual, evita la huella reconocible del diseño generado por IA, puntúa contra la rúbrica real de Awwwards (Diseño 40 / Usabilidad 30 / Creatividad 20 / Contenido 10), y enruta a las skills de diseño y animación ya instaladas. Úsalo antes de construir cualquier interfaz, al rediseñar, o cuando algo \"se ve genérico\" y no se sabe por qué.",
+      "mission": "Dirección de arte",
+      "boundaries": "",
+      "tiene_fronteras": false,
+      "lineas": 232
+    },
+    {
+      "id": "shape-up-cycle",
+      "tipo": "skill",
+      "ruta": "skills/shape-up-cycle/SKILL.md",
+      "name": "shape-up-cycle",
+      "description": "Ciclo de trabajo real para quien programa solo o en equipo muy pequeño, basado en Shape Up (Basecamp) en lugar de Scrum. Úsalo para abrir una apuesta (alcance ↔ appetite), saber si estás cuesta arriba o cuesta abajo, detectar atascos, y cerrar un ciclo. Actívalo cuando alguien pregunte por dónde seguir, cuánto va a tardar algo, si sigue puliendo o lanza, o cuando lleve días sin avanzar visiblemente.",
+      "mission": "El ciclo — Shape Up, no Scrum",
+      "boundaries": "",
+      "tiene_fronteras": false,
+      "lineas": 252
+    },
+    {
+      "id": "/bet",
+      "tipo": "command",
+      "ruta": "commands/bet.md",
+      "name": "bet",
+      "description": "Abre un ciclo de trabajo de Shape Up: da forma a la apuesta, fija el appetite y escribe el no-go antes de tocar nada. Solo para EMPEZAR un ciclo nuevo — no decide precios, arquitectura ni diseño. [qué quieres construir, o vacío para decidirlo entre las opciones]",
+      "mission": "Vas a abrir una apuesta siguiendo el ciclo de la skill  .  Léela primero.",
+      "boundaries": "",
+      "tiene_fronteras": false,
+      "lineas": 79
+    },
+    {
+      "id": "/crew",
+      "tipo": "command",
+      "ruta": "commands/crew.md",
+      "name": "crew",
+      "description": "Convoca varias perspectivas a la vez sobre UNA decisión concreta y sintetiza sus posturas. Úsalo cuando quieras contraste explícito entre roles antes de decidir algo caro de deshacer. Para «por dónde sigo» o el siguiente paso del día, usa `scrum-master`. [tu pregunta o decisión, o vacío para ver el equipo]",
+      "mission": "Convocas al equipo de Business Crew para contrastar  una decisión concreta . El\nusuario trabaja solo:\ntu trabajo es que no lo parezca.",
+      "boundaries": "",
+      "tiene_fronteras": false,
+      "lineas": 112
+    },
+    {
+      "id": "/hill",
+      "tipo": "command",
+      "ruta": "commands/hill.md",
+      "name": "hill",
+      "description": "Actualiza tu posición en el hill chart del ciclo de Shape Up que ya está abierto: cuesta arriba si sigues descubriendo, cuesta abajo si ya ejecutas, y avisa si el punto lleva días sin moverse. Solo DURANTE un ciclo abierto. [qué has avanzado, o vacío para que te pregunte]",
+      "mission": "Vas a actualizar el hill chart del ciclo activo.  Lee la skill   primero ,\nen concreto la sección 3.",
+      "boundaries": "",
+      "tiene_fronteras": false,
+      "lineas": 85
+    },
+    {
+      "id": "/ship",
+      "tipo": "command",
+      "ruta": "commands/ship.md",
+      "name": "ship",
+      "description": "Cierra el ciclo de Shape Up activo: verifica que está de verdad terminado, hace la retro, archiva la apuesta y arranca el cool-down. Solo para CERRAR un ciclo — no publica nada a producción. [vacío]",
+      "mission": "Vas a cerrar el ciclo activo.  Lee la skill   primero.",
+      "boundaries": "",
+      "tiene_fronteras": false,
+      "lineas": 96
+    }
+  ],
+  "pares": [
+    {
+      "a": "shape-up-cycle",
+      "b": "/hill",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.3444,
+      "s_full": 0.312,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "scrum-master",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.3182,
+      "s_full": 0.3135,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.2858,
+      "s_full": 0.267,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.2155,
+      "s_full": 0.195,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "/bet",
+      "b": "/ship",
+      "tipo": "command ↔ command",
+      "s_desc": 0.2007,
+      "s_full": 0.2662,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ui-duarte",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.1954,
+      "s_full": 0.2227,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "shape-up-cycle",
+      "b": "/bet",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.1734,
+      "s_full": 0.2295,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "shape-up-cycle",
+      "b": "/ship",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.1611,
+      "s_full": 0.2068,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "scrum-master",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.1538,
+      "s_full": 0.1752,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "scrum-master",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.1505,
+      "s_full": 0.1135,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.1341,
+      "s_full": 0.141,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "/hill",
+      "b": "/ship",
+      "tipo": "command ↔ command",
+      "s_desc": 0.1331,
+      "s_full": 0.2377,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "/bet",
+      "b": "/hill",
+      "tipo": "command ↔ command",
+      "s_desc": 0.1231,
+      "s_full": 0.1611,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "design-direction",
+      "b": "/bet",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.1218,
+      "s_full": 0.1001,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.1198,
+      "s_full": 0.1231,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.1196,
+      "s_full": 0.0535,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "munger-critico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.1161,
+      "s_full": 0.1021,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.1105,
+      "s_full": 0.1099,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.1067,
+      "s_full": 0.0685,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "scrum-master",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0995,
+      "s_full": 0.1105,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0982,
+      "s_full": 0.2937,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "pm-producto",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0968,
+      "s_full": 0.1137,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0938,
+      "s_full": 0.0769,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0926,
+      "s_full": 0.1148,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "decision-framing",
+      "b": "/crew",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.0921,
+      "s_full": 0.1067,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "coo-graham",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0893,
+      "s_full": 0.0513,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.089,
+      "s_full": 0.0923,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "cfo-precios",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0867,
+      "s_full": 0.0613,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0835,
+      "s_full": 0.1733,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "cmo-godin",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0834,
+      "s_full": 0.1506,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "scrum-master",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0819,
+      "s_full": 0.0606,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "legal-basico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0814,
+      "s_full": 0.0944,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0811,
+      "s_full": 0.0408,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "legal-basico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0809,
+      "s_full": 0.0563,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0792,
+      "s_full": 0.0538,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "/bet",
+      "b": "/crew",
+      "tipo": "command ↔ command",
+      "s_desc": 0.078,
+      "s_full": 0.0735,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "director-arte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0751,
+      "s_full": 0.0767,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0742,
+      "s_full": 0.0434,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0739,
+      "s_full": 0.1566,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "legal-basico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0736,
+      "s_full": 0.2207,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "director-arte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0724,
+      "s_full": 0.0908,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "dev-dhh",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0722,
+      "s_full": 0.0805,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0716,
+      "s_full": 0.0713,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "pm-producto",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0691,
+      "s_full": 0.0585,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "decision-framing",
+      "b": "shape-up-cycle",
+      "tipo": "skill ↔ skill",
+      "s_desc": 0.0681,
+      "s_full": 0.0647,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0674,
+      "s_full": 0.047,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0661,
+      "s_full": 0.0681,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "decision-framing",
+      "b": "/bet",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.0658,
+      "s_full": 0.0522,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "munger-critico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0654,
+      "s_full": 0.0348,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "scrum-master",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0647,
+      "s_full": 0.0493,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0644,
+      "s_full": 0.0558,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0626,
+      "s_full": 0.0615,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "cmo-godin",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0622,
+      "s_full": 0.1071,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0593,
+      "s_full": 0.0391,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ui-duarte",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0592,
+      "s_full": 0.0784,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0591,
+      "s_full": 0.0413,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0579,
+      "s_full": 0.0975,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0575,
+      "s_full": 0.129,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0563,
+      "s_full": 0.0756,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "director-arte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0559,
+      "s_full": 0.0523,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "ceo-bezos",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0547,
+      "s_full": 0.0318,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0541,
+      "s_full": 0.0337,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "director-arte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0535,
+      "s_full": 0.0515,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "devops-hightower",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0535,
+      "s_full": 0.0697,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0534,
+      "s_full": 0.0732,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ventas-ross",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0529,
+      "s_full": 0.0366,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0519,
+      "s_full": 0.0507,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "devops-hightower",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0513,
+      "s_full": 0.0492,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0494,
+      "s_full": 0.0475,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0493,
+      "s_full": 0.0823,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "munger-critico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0489,
+      "s_full": 0.0714,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "pm-producto",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0487,
+      "s_full": 0.0701,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0484,
+      "s_full": 0.0951,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "pm-producto",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0484,
+      "s_full": 0.0653,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0484,
+      "s_full": 0.0365,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "cmo-godin",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0483,
+      "s_full": 0.0534,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0471,
+      "s_full": 0.0839,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "seguridad",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0469,
+      "s_full": 0.0676,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0467,
+      "s_full": 0.0572,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0467,
+      "s_full": 0.069,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0466,
+      "s_full": 0.0579,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0455,
+      "s_full": 0.0352,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "/crew",
+      "b": "/hill",
+      "tipo": "command ↔ command",
+      "s_desc": 0.0452,
+      "s_full": 0.0463,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "pm-producto",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.045,
+      "s_full": 0.071,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0446,
+      "s_full": 0.0339,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0444,
+      "s_full": 0.0407,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "shape-up-cycle",
+      "b": "/crew",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.0443,
+      "s_full": 0.0667,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0438,
+      "s_full": 0.0734,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0438,
+      "s_full": 0.112,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0438,
+      "s_full": 0.0497,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0437,
+      "s_full": 0.0396,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0437,
+      "s_full": 0.0455,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "legal-basico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0432,
+      "s_full": 0.0573,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0429,
+      "s_full": 0.1022,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0428,
+      "s_full": 0.0326,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "devops-hightower",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0424,
+      "s_full": 0.0431,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "cfo-precios",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0422,
+      "s_full": 0.0636,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0421,
+      "s_full": 0.0195,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "munger-critico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.042,
+      "s_full": 0.0641,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0417,
+      "s_full": 0.0578,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0417,
+      "s_full": 0.0362,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0409,
+      "s_full": 0.0484,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0405,
+      "s_full": 0.0686,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0405,
+      "s_full": 0.0322,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "pm-producto",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0403,
+      "s_full": 0.055,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0403,
+      "s_full": 0.1158,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "director-arte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0402,
+      "s_full": 0.0474,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0395,
+      "s_full": 0.041,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "pm-producto",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0386,
+      "s_full": 0.0515,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "legal-basico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0384,
+      "s_full": 0.0758,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "munger-critico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0384,
+      "s_full": 0.0624,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0383,
+      "s_full": 0.0409,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "director-arte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0382,
+      "s_full": 0.0306,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0378,
+      "s_full": 0.1355,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0376,
+      "s_full": 0.0278,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0374,
+      "s_full": 0.0266,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0372,
+      "s_full": 0.03,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ui-duarte",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0371,
+      "s_full": 0.0332,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.037,
+      "s_full": 0.0278,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "devops-hightower",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0368,
+      "s_full": 0.0461,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "legal-basico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0362,
+      "s_full": 0.0567,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "seguridad",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.036,
+      "s_full": 0.0477,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0358,
+      "s_full": 0.0325,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0353,
+      "s_full": 0.0178,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0351,
+      "s_full": 0.0553,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "munger-critico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0348,
+      "s_full": 0.0822,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0348,
+      "s_full": 0.0352,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0342,
+      "s_full": 0.0718,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "cfo-precios",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.034,
+      "s_full": 0.1174,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ventas-ross",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0337,
+      "s_full": 0.0202,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "/crew",
+      "b": "/ship",
+      "tipo": "command ↔ command",
+      "s_desc": 0.0332,
+      "s_full": 0.0242,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0331,
+      "s_full": 0.0179,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "munger-critico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.033,
+      "s_full": 0.0266,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0324,
+      "s_full": 0.0703,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0324,
+      "s_full": 0.0388,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ui-duarte",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.032,
+      "s_full": 0.0793,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "seguridad",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0319,
+      "s_full": 0.0168,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "coo-graham",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0314,
+      "s_full": 0.037,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0311,
+      "s_full": 0.0272,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0286,
+      "s_full": 0.0759,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0283,
+      "s_full": 0.0355,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0283,
+      "s_full": 0.031,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ventas-ross",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0281,
+      "s_full": 0.0218,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0278,
+      "s_full": 0.0188,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0273,
+      "s_full": 0.0117,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0272,
+      "s_full": 0.0587,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "pm-producto",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0269,
+      "s_full": 0.0808,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0258,
+      "s_full": 0.0117,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0258,
+      "s_full": 0.0522,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0256,
+      "s_full": 0.0488,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0255,
+      "s_full": 0.052,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0255,
+      "s_full": 0.0419,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0254,
+      "s_full": 0.0563,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0254,
+      "s_full": 0.0442,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "devops-hightower",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0253,
+      "s_full": 0.0904,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0253,
+      "s_full": 0.0409,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "devops-hightower",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0252,
+      "s_full": 0.0364,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ui-duarte",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0252,
+      "s_full": 0.0448,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ux-norman",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0242,
+      "s_full": 0.0145,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0241,
+      "s_full": 0.0406,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.024,
+      "s_full": 0.0364,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.024,
+      "s_full": 0.0122,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0238,
+      "s_full": 0.0708,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0232,
+      "s_full": 0.019,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "dev-dhh",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0231,
+      "s_full": 0.062,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0227,
+      "s_full": 0.0183,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "seguridad",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0227,
+      "s_full": 0.05,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0225,
+      "s_full": 0.0222,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "dev-dhh",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0218,
+      "s_full": 0.0317,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "pm-producto",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0218,
+      "s_full": 0.0664,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "dev-dhh",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0216,
+      "s_full": 0.0574,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0216,
+      "s_full": 0.047,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "analista-thompson",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0213,
+      "s_full": 0.0909,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "decision-framing",
+      "b": "design-direction",
+      "tipo": "skill ↔ skill",
+      "s_desc": 0.0211,
+      "s_full": 0.0157,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "legal-basico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.021,
+      "s_full": 0.0937,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0209,
+      "s_full": 0.0399,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0207,
+      "s_full": 0.0271,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0207,
+      "s_full": 0.012,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.02,
+      "s_full": 0.0532,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0199,
+      "s_full": 0.0371,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "legal-basico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0198,
+      "s_full": 0.0762,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0194,
+      "s_full": 0.041,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0184,
+      "s_full": 0.0083,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ventas-ross",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0181,
+      "s_full": 0.0481,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.018,
+      "s_full": 0.0169,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.018,
+      "s_full": 0.029,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0174,
+      "s_full": 0.0351,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0174,
+      "s_full": 0.0239,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "decision-framing",
+      "b": "/hill",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.0173,
+      "s_full": 0.0129,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0172,
+      "s_full": 0.0377,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0171,
+      "s_full": 0.0991,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.017,
+      "s_full": 0.0423,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0163,
+      "s_full": 0.0196,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "seguridad",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.016,
+      "s_full": 0.0439,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0159,
+      "s_full": 0.0396,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "scrum-master",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0155,
+      "s_full": 0.0134,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "seguridad",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0154,
+      "s_full": 0.03,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0145,
+      "s_full": 0.0058,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "design-direction",
+      "b": "shape-up-cycle",
+      "tipo": "skill ↔ skill",
+      "s_desc": 0.0145,
+      "s_full": 0.0084,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0112,
+      "s_full": 0.0198,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0112,
+      "s_full": 0.0494,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.011,
+      "s_full": 0.0362,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "dev-dhh",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0109,
+      "s_full": 0.0377,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "dev-dhh",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0109,
+      "s_full": 0.0531,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ux-norman",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0108,
+      "s_full": 0.0158,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "ceo-bezos",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0107,
+      "s_full": 0.0499,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0107,
+      "s_full": 0.0277,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0106,
+      "s_full": 0.0485,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "cmo-godin",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0105,
+      "s_full": 0.1062,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "ventas-ross",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0105,
+      "s_full": 0.1411,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "coo-graham",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0105,
+      "s_full": 0.0595,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0104,
+      "s_full": 0.0255,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "pm-producto",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0103,
+      "s_full": 0.1034,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0101,
+      "s_full": 0.0616,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ventas-ross",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.01,
+      "s_full": 0.0102,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0099,
+      "s_full": 0.0666,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "legal-basico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0098,
+      "s_full": 0.0324,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "director-arte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0097,
+      "s_full": 0.0624,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0095,
+      "s_full": 0.0113,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "devops-hightower",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0094,
+      "s_full": 0.0438,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0094,
+      "s_full": 0.0114,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "coo-graham",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0276,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "munger-critico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0333,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0647,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0203,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0275,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0356,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-datos",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0216,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "director-arte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0065,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "pm-producto",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0145,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "scrum-master",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0133,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "analista-thompson",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0135,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ceo-bezos",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0103,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "coo-graham",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0608,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0038,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0433,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0139,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0198,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cfo-precios",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0343,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0328,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "cmo-godin",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0049,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "coo-graham",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0198,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0108,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0121,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0108,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0346,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0078,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "devops-hightower",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0062,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "munger-critico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0495,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0424,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0559,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0307,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0174,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0642,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "director-arte",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0246,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "munger-critico",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.1202,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.043,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0139,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "legal-basico",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0218,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0062,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "munger-critico",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0328,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0338,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0132,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0071,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "pm-producto",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0093,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "qa-bach",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0172,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "scrum-master",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.039,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "scrum-master",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0369,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "scrum-master",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0301,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "scrum-master",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "seguridad",
+      "b": "ui-duarte",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0,
+      "s_full": 0.0385,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "seguridad",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0099,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "seguridad",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0255,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "seguridad",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0104,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ui-duarte",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0126,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ui-duarte",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0099,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ui-duarte",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0451,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ui-duarte",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0221,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ux-norman",
+      "b": "decision-framing",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.016,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ux-norman",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0319,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ux-norman",
+      "b": "/bet",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0271,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ux-norman",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0473,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ux-norman",
+      "b": "/hill",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0131,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ux-norman",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0095,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ventas-ross",
+      "b": "shape-up-cycle",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "ventas-ross",
+      "b": "/ship",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.0,
+      "s_full": 0.0081,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "decision-framing",
+      "b": "/ship",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "design-direction",
+      "b": "/crew",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "design-direction",
+      "b": "/hill",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.011,
+      "interpretacion": "distintas"
+    },
+    {
+      "a": "design-direction",
+      "b": "/ship",
+      "tipo": "command ↔ skill",
+      "s_desc": 0.0,
+      "s_full": 0.0144,
+      "interpretacion": "distintas"
+    }
+  ],
+  "hipotesis": [
+    {
+      "a": "director-arte",
+      "b": "design-direction",
+      "tipo": "agent ↔ skill",
+      "s_desc": 0.2858,
+      "s_full": 0.267,
+      "interpretacion": "distintas",
+      "hipotesis": "H1",
+      "esperado": "alta",
+      "veredicto": "RECHAZADA"
+    },
+    {
+      "a": "scrum-master",
+      "b": "/crew",
+      "tipo": "agent ↔ command",
+      "s_desc": 0.3182,
+      "s_full": 0.3135,
+      "interpretacion": "distintas",
+      "hipotesis": "H2",
+      "esperado": "alta",
+      "veredicto": "RECHAZADA"
+    },
+    {
+      "a": "munger-critico",
+      "b": "qa-bach",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0716,
+      "s_full": 0.0713,
+      "interpretacion": "distintas",
+      "hipotesis": "H3a",
+      "esperado": "proxima-diferenciada",
+      "veredicto": "CONFIRMADA"
+    },
+    {
+      "a": "munger-critico",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0403,
+      "s_full": 0.1158,
+      "interpretacion": "distintas",
+      "hipotesis": "H3b",
+      "esperado": "proxima-diferenciada",
+      "veredicto": "CONFIRMADA"
+    },
+    {
+      "a": "qa-bach",
+      "b": "seguridad",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0238,
+      "s_full": 0.0708,
+      "interpretacion": "distintas",
+      "hipotesis": "H3c",
+      "esperado": "proxima-diferenciada",
+      "veredicto": "CONFIRMADA"
+    },
+    {
+      "a": "dev-dhh",
+      "b": "devops-hightower",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.0535,
+      "s_full": 0.0697,
+      "interpretacion": "distintas",
+      "hipotesis": "H4",
+      "esperado": "baja",
+      "veredicto": "CONFIRMADA"
+    },
+    {
+      "a": "ui-duarte",
+      "b": "ux-norman",
+      "tipo": "agent ↔ agent",
+      "s_desc": 0.1954,
+      "s_full": 0.2227,
+      "interpretacion": "distintas",
+      "hipotesis": "H5",
+      "esperado": "baja",
+      "veredicto": "CONFIRMADA"
+    }
+  ],
+  "genericidad": [
+    {
+      "id": "/bet",
+      "tipo": "command",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.0627906102368118,
+      "idf_medio": 2.8865170013648953,
+      "palabras_desc": 23,
+      "genericidad": 54.0
+    },
+    {
+      "id": "shape-up-cycle",
+      "tipo": "skill",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.05593307617028409,
+      "idf_medio": 3.082182291198646,
+      "palabras_desc": 37,
+      "genericidad": 46.8
+    },
+    {
+      "id": "scrum-master",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.053480299908537525,
+      "idf_medio": 3.045294357947468,
+      "palabras_desc": 33,
+      "genericidad": 45.2
+    },
+    {
+      "id": "/crew",
+      "tipo": "command",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.04562073463657998,
+      "idf_medio": 3.055983968771572,
+      "palabras_desc": 24,
+      "genericidad": 38.8
+    },
+    {
+      "id": "/hill",
+      "tipo": "command",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.04508708492252777,
+      "idf_medio": 3.071846334601268,
+      "palabras_desc": 27,
+      "genericidad": 38.3
+    },
+    {
+      "id": "ceo-bezos",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.04328356508350337,
+      "idf_medio": 3.0995664893918393,
+      "palabras_desc": 29,
+      "genericidad": 36.6
+    },
+    {
+      "id": "director-arte",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.04143242383094256,
+      "idf_medio": 3.1476251382680207,
+      "palabras_desc": 32,
+      "genericidad": 34.7
+    },
+    {
+      "id": "legal-basico",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.040345251100706886,
+      "idf_medio": 3.138564312364175,
+      "palabras_desc": 28,
+      "genericidad": 33.9
+    },
+    {
+      "id": "munger-critico",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.039770270811540005,
+      "idf_medio": 3.105594141574017,
+      "palabras_desc": 26,
+      "genericidad": 33.7
+    },
+    {
+      "id": "dev-dhh",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.037838168389640436,
+      "idf_medio": 3.0929889627260496,
+      "palabras_desc": 24,
+      "genericidad": 32.3
+    },
+    {
+      "id": "/ship",
+      "tipo": "command",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.03641134373438363,
+      "idf_medio": 3.08632740903182,
+      "palabras_desc": 17,
+      "genericidad": 31.2
+    },
+    {
+      "id": "coo-graham",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.036176413723277935,
+      "idf_medio": 3.1484947510620453,
+      "palabras_desc": 29,
+      "genericidad": 30.5
+    },
+    {
+      "id": "design-direction",
+      "tipo": "skill",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.035768007841662765,
+      "idf_medio": 3.1593954211961846,
+      "palabras_desc": 32,
+      "genericidad": 30.0
+    },
+    {
+      "id": "ventas-ross",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.03462551946603723,
+      "idf_medio": 3.1428839587429773,
+      "palabras_desc": 26,
+      "genericidad": 29.3
+    },
+    {
+      "id": "devops-hightower",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.03443681606470016,
+      "idf_medio": 3.19147423925139,
+      "palabras_desc": 32,
+      "genericidad": 28.7
+    },
+    {
+      "id": "analista-datos",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.034046280526818386,
+      "idf_medio": 3.2019529766098933,
+      "palabras_desc": 28,
+      "genericidad": 28.3
+    },
+    {
+      "id": "analista-thompson",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.032350525575085394,
+      "idf_medio": 3.1720304743865197,
+      "palabras_desc": 25,
+      "genericidad": 27.2
+    },
+    {
+      "id": "pm-producto",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.03175971549926431,
+      "idf_medio": 3.1640973652630393,
+      "palabras_desc": 24,
+      "genericidad": 26.8
+    },
+    {
+      "id": "ui-duarte",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.0308717938652526,
+      "idf_medio": 3.232378598904781,
+      "palabras_desc": 30,
+      "genericidad": 25.5
+    },
+    {
+      "id": "cmo-godin",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.030290826500343895,
+      "idf_medio": 3.2067898784957896,
+      "palabras_desc": 26,
+      "genericidad": 25.3
+    },
+    {
+      "id": "qa-bach",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.028866938528575397,
+      "idf_medio": 3.201951971286172,
+      "palabras_desc": 24,
+      "genericidad": 24.2
+    },
+    {
+      "id": "seguridad",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.02989361309153148,
+      "idf_medio": 3.302477098246481,
+      "palabras_desc": 27,
+      "genericidad": 24.1
+    },
+    {
+      "id": "ux-norman",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.02777299812744617,
+      "idf_medio": 3.286876599539951,
+      "palabras_desc": 27,
+      "genericidad": 22.5
+    },
+    {
+      "id": "decision-framing",
+      "tipo": "skill",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.024707412376921117,
+      "idf_medio": 3.2752171227909623,
+      "palabras_desc": 26,
+      "genericidad": 20.2
+    },
+    {
+      "id": "cfo-precios",
+      "tipo": "agent",
+      "comodines": [],
+      "n_comodines": 0,
+      "sim_media": 0.01801505803101801,
+      "idf_medio": 3.3335528348805714,
+      "palabras_desc": 26,
+      "genericidad": 14.3
+    }
+  ],
+  "casos": [
+    {
+      "id": "C01",
+      "query": "tengo la web publicada y no tengo ni idea de si entra alguien ni de si sirve para algo",
+      "expected": "analista-datos",
+      "top3": [
+        "analista-datos",
+        "/ship",
+        "pm-producto"
+      ],
+      "scores": [
+        0.306,
+        0.079,
+        0.077
+      ],
+      "expected_score": 0.3058,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "ambiguous": false,
+      "margin": 0.2265
+    },
+    {
+      "id": "C02",
+      "query": "el enlace que dispara el formulario está a la vista en el código que descarga el navegador y cualquiera podría llamarlo",
+      "expected": "seguridad",
+      "top3": [
+        "seguridad",
+        "legal-basico",
+        "dev-dhh"
+      ],
+      "scores": [
+        0.382,
+        0.143,
+        0.104
+      ],
+      "expected_score": 0.3824,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "ambiguous": false,
+      "margin": 0.2392
+    },
+    {
+      "id": "C03",
+      "query": "no sé cuánto pedir por esto ni si me va a salir a cuenta",
+      "expected": "cfo-precios",
+      "top3": [
+        "cfo-precios"
+      ],
+      "scores": [
+        0.283
+      ],
+      "expected_score": 0.2828,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "ambiguous": false,
+      "margin": 0.2828
+    },
+    {
+      "id": "C04",
+      "query": "se me ha ocurrido añadir una cosa nueva pero nadie me la ha pedido todavía",
+      "expected": "pm-producto",
+      "top3": [
+        "pm-producto",
+        "dev-dhh",
+        "qa-bach"
+      ],
+      "scores": [
+        0.472,
+        0.136,
+        0.092
+      ],
+      "expected_score": 0.4719,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "ambiguous": false,
+      "margin": 0.3363
+    },
+    {
+      "id": "C05",
+      "query": "quiero montar el flujo que avisa solo al cliente y reintenta si falla el envío",
+      "expected": "coo-graham",
+      "top3": [
+        "ventas-ross",
+        "munger-critico",
+        "director-arte"
+      ],
+      "scores": [
+        0.156,
+        0.14,
+        0.14
+      ],
+      "expected_score": 0.0784,
+      "expected_reachable": true,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [
+        "ventas-ross"
+      ],
+      "ambiguous": true,
+      "margin": 0.016
+    },
+    {
+      "id": "C06",
+      "query": "voy a guardar datos de varios clientes en la misma base y no quiero que se vean entre ellos",
+      "expected": "dev-dhh",
+      "top3": [
+        "legal-basico",
+        "seguridad",
+        "ventas-ross"
+      ],
+      "scores": [
+        0.265,
+        0.263,
+        0.207
+      ],
+      "expected_score": 0.0,
+      "expected_reachable": false,
+      "top1_ok": false,
+      "top3_ok": false,
+      "forbidden_in_top3": [],
+      "ambiguous": true,
+      "margin": 0.0018
+    },
+    {
+      "id": "C07",
+      "query": "la pantalla funciona pero la gente no entiende qué tiene que hacer y se atasca",
+      "expected": "ux-norman",
+      "top3": [
+        "ux-norman",
+        "analista-datos",
+        "ui-duarte"
+      ],
+      "scores": [
+        0.403,
+        0.217,
+        0.129
+      ],
+      "expected_score": 0.4026,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "ambiguous": false,
+      "margin": 0.1855
+    },
+    {
+      "id": "C08",
+      "query": "los tests pasan y compila, ¿lo puedo publicar ya?",
+      "expected": "qa-bach",
+      "top3": [
+        "qa-bach",
+        "/ship",
+        "ventas-ross"
+      ],
+      "scores": [
+        0.442,
+        0.081,
+        0.079
+      ],
+      "expected_score": 0.4424,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "ambiguous": false,
+      "margin": 0.3612
+    },
+    {
+      "id": "C09",
+      "query": "quiero saber quién más hace esto en mi zona y si hay hueco de verdad",
+      "expected": "analista-thompson",
+      "top3": [
+        "analista-thompson",
+        "qa-bach",
+        "/ship"
+      ],
+      "scores": [
+        0.406,
+        0.117,
+        0.067
+      ],
+      "expected_score": 0.4056,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [
+        "qa-bach"
+      ],
+      "ambiguous": false,
+      "margin": 0.2884
+    },
+    {
+      "id": "C10",
+      "query": "me piden mensajería, reservas y que además atienda llamadas, todo a la vez",
+      "expected": "pm-producto",
+      "top3": [
+        "pm-producto",
+        "seguridad"
+      ],
+      "scores": [
+        0.15,
+        0.142
+      ],
+      "expected_score": 0.1504,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "ambiguous": true,
+      "margin": 0.0083
+    },
+    {
+      "id": "C11",
+      "query": "he vuelto después de dos semanas y no sé por dónde retomar esto",
+      "expected": "scrum-master",
+      "top3": [
+        "scrum-master",
+        "ventas-ross"
+      ],
+      "scores": [
+        0.26,
+        0.125
+      ],
+      "expected_score": 0.2602,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [],
+      "ambiguous": false,
+      "margin": 0.1353
+    },
+    {
+      "id": "C12",
+      "query": "lo he montado y se ve soso, parece igual que cualquier otra web y no sé qué le falta",
+      "expected": "director-arte",
+      "top3": [
+        "director-arte",
+        "cmo-godin",
+        "dev-dhh"
+      ],
+      "scores": [
+        0.466,
+        0.139,
+        0.072
+      ],
+      "expected_score": 0.4664,
+      "expected_reachable": true,
+      "top1_ok": true,
+      "top3_ok": true,
+      "forbidden_in_top3": [
+        "cmo-godin"
+      ],
+      "ambiguous": false,
+      "margin": 0.3274
+    }
+  ],
+  "umbrales": {
+    "error": 0.75,
+    "aviso": 0.5
+  }
+}

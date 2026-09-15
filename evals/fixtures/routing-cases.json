@@ -1,0 +1,112 @@
+{
+  "_comment": [
+    "Casos de enrutado para el Tier 2. Regla de escritura tomada de agent-skills:",
+    "las consultas parafrasean cómo habla de verdad un usuario; NUNCA se copian de la",
+    "descripción de la capacidad — eso sería hacer trampa al propio eval.",
+    "",
+    "expected_primary        quién DEBERÍA ganar",
+    "optional_secondary      aceptable en el top-3, no obligatorio",
+    "should_not_route_to     su presencia en el top-3 es un fallo",
+    "note                    qué pone a prueba este caso",
+    "",
+    "Cero datos reales: ni nombres de clientes, ni negocios, ni teléfonos, ni citas."
+  ],
+  "cases": [
+    {
+      "id": "C01",
+      "query": "tengo la web publicada y no tengo ni idea de si entra alguien ni de si sirve para algo",
+      "expected_primary": "analista-datos",
+      "optional_secondary": ["cmo-godin"],
+      "should_not_route_to": ["dev-dhh", "devops-hightower"],
+      "note": "El caso que falló en la realidad: la capacidad existía y nadie la convocó."
+    },
+    {
+      "id": "C02",
+      "query": "el enlace que dispara el formulario está a la vista en el código que descarga el navegador y cualquiera podría llamarlo",
+      "expected_primary": "seguridad",
+      "optional_secondary": ["devops-hightower"],
+      "should_not_route_to": ["cmo-godin", "cfo-precios"],
+      "note": "Descrito como lo contaría alguien sin vocabulario de seguridad."
+    },
+    {
+      "id": "C03",
+      "query": "no sé cuánto pedir por esto ni si me va a salir a cuenta",
+      "expected_primary": "cfo-precios",
+      "optional_secondary": ["analista-thompson"],
+      "should_not_route_to": ["dev-dhh", "ui-duarte"],
+      "note": "Debería ser el enrutado más limpio del repo."
+    },
+    {
+      "id": "C04",
+      "query": "se me ha ocurrido añadir una cosa nueva pero nadie me la ha pedido todavía",
+      "expected_primary": "pm-producto",
+      "optional_secondary": ["munger-critico", "coo-graham"],
+      "should_not_route_to": ["ui-duarte", "devops-hightower"],
+      "note": "Alcance mínimo frente a pre-mortem."
+    },
+    {
+      "id": "C05",
+      "query": "quiero montar el flujo que avisa solo al cliente y reintenta si falla el envío",
+      "expected_primary": "coo-graham",
+      "optional_secondary": ["devops-hightower", "dev-dhh"],
+      "should_not_route_to": ["cmo-godin", "ventas-ross"],
+      "note": "HUECO CONOCIDO: nadie posee arquitectura de automatización. coo-graham es lo más cercano y solo decide SI, no CÓMO. Se espera enrutado débil o ambiguo."
+    },
+    {
+      "id": "C06",
+      "query": "voy a guardar datos de varios clientes en la misma base y no quiero que se vean entre ellos",
+      "expected_primary": "dev-dhh",
+      "optional_secondary": ["seguridad"],
+      "should_not_route_to": ["cmo-godin", "cfo-precios"],
+      "note": "HUECO CONOCIDO: el dueño real está FUERA del repo (saas-multitenant-architecture). Se espera enrutado débil."
+    },
+    {
+      "id": "C07",
+      "query": "la pantalla funciona pero la gente no entiende qué tiene que hacer y se atasca",
+      "expected_primary": "ux-norman",
+      "optional_secondary": ["ui-duarte"],
+      "should_not_route_to": ["director-arte", "dev-dhh"],
+      "note": "H5: usabilidad frente a estética."
+    },
+    {
+      "id": "C08",
+      "query": "los tests pasan y compila, ¿lo puedo publicar ya?",
+      "expected_primary": "qa-bach",
+      "optional_secondary": ["seguridad", "devops-hightower"],
+      "should_not_route_to": ["cmo-godin", "ceo-bezos"],
+      "note": "H3: qa-bach frente a seguridad ante la misma pregunta."
+    },
+    {
+      "id": "C09",
+      "query": "quiero saber quién más hace esto en mi zona y si hay hueco de verdad",
+      "expected_primary": "analista-thompson",
+      "optional_secondary": ["cmo-godin"],
+      "should_not_route_to": ["dev-dhh", "qa-bach"],
+      "note": "Mercado frente a mensaje."
+    },
+    {
+      "id": "C10",
+      "query": "me piden mensajería, reservas y que además atienda llamadas, todo a la vez",
+      "expected_primary": "pm-producto",
+      "optional_secondary": ["coo-graham", "munger-critico"],
+      "should_not_route_to": ["ui-duarte", "ventas-ross"],
+      "note": "Alcance apilado: la respuesta correcta es recortar, no construir."
+    },
+    {
+      "id": "C11",
+      "query": "he vuelto después de dos semanas y no sé por dónde retomar esto",
+      "expected_primary": "scrum-master",
+      "optional_secondary": ["/crew", "/hill"],
+      "should_not_route_to": ["ceo-bezos", "cfo-precios"],
+      "note": "H2: pone a prueba scrum-master frente a /crew ante su consulta insignia."
+    },
+    {
+      "id": "C12",
+      "query": "lo he montado y se ve soso, parece igual que cualquier otra web y no sé qué le falta",
+      "expected_primary": "director-arte",
+      "optional_secondary": ["design-direction", "ui-duarte"],
+      "should_not_route_to": ["ux-norman", "cmo-godin"],
+      "note": "H1: pone a prueba director-arte frente a design-direction ante su consulta insignia."
+    }
+  ]
+}
