@@ -1,5 +1,17 @@
 # Business Crew
 
+> **In English:** a Claude Code plugin that gives solo builders a startup team of 18
+> specialised agents (product, pricing, sales, security, QA, UX, architecture and more) plus
+> a work cycle based on [Shape Up](https://basecamp.com/shapeup): fixed appetite, hill chart
+> and circuit breaker. None of the agents writes code; each one gives an opinion from its
+> role and the next step. Works for any product type (SaaS, ecommerce, landing, internal
+> tool). **The agents, commands and documentation are written in Spanish.**
+>
+> ```bash
+> claude plugin marketplace add fernando-delrio/business-crew
+> claude plugin install business-crew@business-crew
+> ```
+
 **Programar solo no tiene por qué sentirse solo.**
 
 Un plugin de Claude Code que te presta un equipo entero: 18 agentes con persona real
@@ -80,7 +92,7 @@ sequenceDiagram
 
     CC->>BC: Stop (al terminar cada respuesta)
     alt appetite vencido y no avisado hoy
-        BC-->>Tu: "vencio hace 2 días. Circuit breaker: /ship"
+        BC-->>Tu: "venció hace 2 días. Circuit breaker: /ship"
     else dentro de plazo, o ya avisado
         BC-->>CC: silencio
     end
@@ -251,8 +263,13 @@ business-crew/
 ├── skills/             3 skills
 ├── commands/           /crew /bet /hill /ship
 ├── hooks/              SessionStart + Stop
+├── rules/              contrato de salida y reglas de orquestación
 ├── scripts/            carga del ciclo y aviso de cierre
-└── PORTFOLIO.template.md
+├── evals/              evaluadores y resultados que miden si cada agente se activa bien
+├── docs/               diseño y mapa de capacidades (v0.2)
+├── PORTFOLIO.template.md
+├── CONTRIBUTING.md · SECURITY.md · CHANGELOG.md · LICENSE
+└── .github/            plantillas de issues
 ```
 
 El ciclo vive en `.crew/estado.md` dentro de cada proyecto. Trabajando solo conviene
@@ -285,6 +302,11 @@ Construido sobre las ideas de [Shape Up](https://basecamp.com/shapeup) (Ryan Sin
 Basecamp), el descubrimiento continuo de [Teresa Torres](https://www.producttalk.org/),
 la [rúbrica de evaluación de Awwwards](https://www.awwwards.com/about-evaluation/), y las
 personas que dan nombre a cada agente.
+
+Cada agente se inspira en la obra publicada de la persona cuyo nombre lleva. No hay
+relación con ellas ni aval por su parte, y los agentes no hablan en su nombre.
+*Each agent is inspired by the published work of the person it is named after. No
+affiliation or endorsement; the agents do not speak on their behalf.*
 
 ## Licencia
 
